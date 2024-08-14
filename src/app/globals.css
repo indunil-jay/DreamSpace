@@ -85,9 +85,7 @@
   .side-gutter {
     @apply px-2 sm:px-6;
   }
-  .sub-text-1 {
-    @apply text-[13px] text-dark/70 font-medium;
-  }
+
   .border-light {
     @apply border border-[#f1f1f1];
   }

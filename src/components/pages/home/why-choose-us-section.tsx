@@ -13,18 +13,17 @@ export const WhyWeChoose = () => {
           </div>
         </div>
 
-        <div className="text-center text-white relative self-center  p-10">
-          <GradientTag>WE ARE PASSIONATE ON WHAT WE PROVIDE</GradientTag>
-
-          <SectionHeader> Why Choose us</SectionHeader>
-
-          <p className="sub-text-1 mt-8 text-white/70">
-            At our interior design company, we are dedicated to transforming
+        <div className="self-center text-white">
+          <SectionHeader
+            title="Why Choose us"
+            tag="WE ARE PASSIONATE ON WHAT WE PROVIDE"
+            paragraphText="At our interior design company, we are dedicated to transforming
             spaces with creativity and precision. Our approach combines
             innovative design with a deep understanding of our clients' needs,
             ensuring that every project reflects their unique vision and
-            enhances their. environment
-          </p>
+            enhances their environment."
+            paragraphTextColor="light"
+          />
         </div>
 
         <div className="flex relative  justify-center items-center   ">

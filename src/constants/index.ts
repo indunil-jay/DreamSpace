@@ -1,3 +1,79 @@
+// # project
+import ctaImage from "../../public/cta.jpg";
+export { ctaImage };
+export const projects = [
+  {
+    id: 1,
+    name: " the grand apartment, ward place",
+    type: "Coffee shop",
+    location: "colombo, Rathmalana",
+    image: ctaImage,
+  },
+  {
+    id: 2,
+    name: " the grand apartment, ward place",
+    type: "Coffee shop",
+    location: "colombo, Rathmalana",
+    image: ctaImage,
+  },
+  {
+    id: 3,
+    name: " the grand apartment, ward place",
+    type: "Coffee shop",
+    location: "colombo, Rathmalana",
+    image: ctaImage,
+  },
+  {
+    id: 4,
+    name: " the grand apartment, ward place",
+    type: "Coffee shop",
+    location: "colombo, Rathmalana",
+    image: ctaImage,
+  },
+  {
+    id: 5,
+    name: " the grand apartment, ward place",
+    type: "Coffee shop",
+    location: "colombo, Rathmalana",
+    image: ctaImage,
+  },
+  {
+    id: 6,
+    name: " the grand apartment, ward place",
+    type: "Coffee shop",
+    location: "colombo, Rathmalana",
+    image: ctaImage,
+  },
+  {
+    id: 7,
+    name: " the grand apartment, ward place",
+    type: "Coffee shop",
+    location: "colombo, Rathmalana",
+    image: ctaImage,
+  },
+  {
+    id: 8,
+    name: " the grand apartment, ward place",
+    type: "Coffee shop",
+    location: "colombo, Rathmalana",
+    image: ctaImage,
+  },
+  {
+    id: 9,
+    name: " the grand apartment, ward place",
+    type: "Coffee shop",
+    location: "colombo, Rathmalana",
+    image: ctaImage,
+  },
+  {
+    id: 10,
+    name: " the grand apartment, ward place",
+    type: "Coffee shop",
+    location: "colombo, Rathmalana",
+    image: ctaImage,
+  },
+];
+
 //# why choose use
 
 export const skillsCards = [
@@ -79,7 +155,7 @@ export const offerCards = [
     title: "Office Design",
     image: building5,
     description:
-      "We design workspaces that inspire productivity and creativity. Our office designs prioritize functionality without compromising on style, creating environments that foster innovation and collaboration/",
+      "We design workspaces that inspire productivity and creativity. Our office designs prioritize functionality without compromising on style, creating environments that foster innovation and collaboration.",
   },
   {
     id: 6,

@@ -1,6 +1,7 @@
-import { HeroSection } from "./hero-section";
-import { WhatWeDoSection } from "./what-we-do-section";
-import { WhyWeChoose } from "./why-choose-us-section";
+import { HeroSection } from "@/components/pages/home/hero-section";
+import { OurWorkSection } from "@/components/pages/home/our-work";
+import { WhatWeDoSection } from "@/components/pages/home/what-we-do-section";
+import { WhyWeChoose } from "@/components/pages/home/why-choose-us-section";
 
 export const Main = () => {
   return (
@@ -8,6 +9,7 @@ export const Main = () => {
       <HeroSection />
       <WhatWeDoSection />
       <WhyWeChoose />
+      <OurWorkSection />
     </main>
   );
 };
