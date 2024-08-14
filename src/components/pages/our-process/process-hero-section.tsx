@@ -1,4 +1,3 @@
-import { GradientTag } from "@/components/gradient-tag";
 import { ourprocessHeroImg } from "@/constants";
 import { cn } from "@/lib/utils";
 import Image from "next/image";

@@ -397,3 +397,8 @@ export const processArr = [
     textColor: "white",
   },
 ];
+
+// About page
+import aboutHeroImg from "../../public/about/about-cover.jpg";
+import aboutHeromobileImg from "../../public/about/about-mobile.jpeg";
+export { aboutHeroImg, aboutHeromobileImg };
