@@ -88,4 +88,32 @@
   .sub-text-1 {
     @apply text-[13px] text-dark/70 font-medium;
   }
+  .border-light {
+    @apply border border-[#f1f1f1];
+  }
+}
+
+/* custome style for swipper */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

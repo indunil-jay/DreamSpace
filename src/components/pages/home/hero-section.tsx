@@ -1,4 +1,7 @@
+import { Circle3 } from "@/components/design/circl3";
 import { GradientTag } from "@/components/gradient-tag";
+import { Swipper } from "@/components/swipper";
+import { slides1, slides2, slides3 } from "@/constants";
 
 export const HeroSection = () => {
   return (
@@ -17,11 +20,31 @@ export const HeroSection = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1  lg:grid-cols-[minmax(150px,1fr)_minmax(300px,2fr)_minmax(150px,1fr)]  min-h-[360px] h-[360px] gap-10 mt-16 lg:mt-20 ">
-        <div className="bg-green-500 rounded-2xl hidden lg:block"></div>
-        <div className="bg-rose-500 rounded-2xl "></div>
-        <div className="bg-blue-500 rounded-2xl hidden lg:block"></div>
+      <div className="grid grid-cols-1  lg:grid-cols-[minmax(150px,1fr)_minmax(300px,2fr)_minmax(150px,1fr)]  min-h-[360px] h-[360px] 2xl:min-h-[500px] 2xl:h-[500px] gap-10 mt-16 lg:mt-20 ">
+        <div className=" rounded-3xl border lg:inline-flex  hidden overflow-clip  min-h-[360px]  h-[360px] 2xl:min-h-[500px] 2xl:h-[500px] relative">
+          <Swipper
+            slides={slides1}
+            navigation={false}
+            pagination={false}
+            direction="vertical"
+            reverse={true}
+          />
+        </div>
+        <div className=" rounded-3xl borderrelative overflow-clip  min-h-[360px]  h-[360px] 2xl:min-h-[500px] 2xl:h-[500px]">
+          {" "}
+          <Swipper slides={slides2} navigation={false} pagination={false} />
+        </div>
+        <div className=" rounded-3xl border lg:block hidden relative overflow-clip   min-h-[360px] h-[360px] 2xl:min-h-[500px] 2xl:h-[500px]">
+          <Swipper
+            slides={slides3}
+            navigation={false}
+            pagination={false}
+            direction="vertical"
+          />
+        </div>
       </div>
+
+      <Circle3 />
     </section>
   );
 };
