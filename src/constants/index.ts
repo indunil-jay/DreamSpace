@@ -342,4 +342,58 @@ export const navigation = [
 
 // OUR-PROCESS-PAGE
 import ourprocessHeroImg from "../../public/our-process/hero-our-process.jpg";
+import step1 from "../../public/our-process/step-1.jpg";
+import step2 from "../../public/our-process/step-2.jpg";
+import step3 from "../../public/our-process/step-3.jpg";
+import step4 from "../../public/our-process/step-4.jpg";
+import step5 from "../../public/our-process/step-5.jpg";
 export { ourprocessHeroImg };
+
+export const processArr = [
+  {
+    id: 1,
+    image: step1,
+    description: `Get your head in the clouds. This phase is all about understanding your wants and needs for the space. Typically, this takes 2 to 3 sessions to get to a stage that everyone is comfortable with and has design clarity. This will be the start of the framework that creates the end result so we take this phase seriously. We’ll get on the same page regarding budget and design parameters and then we will start to put together imagery to provide a sense of the design intent. In short, we will do what it takes to make sure we understand exactly what the clients’ intentions are for their home. This is where the dream begins.`,
+    title: "Planning & Conceptualizing",
+    order: [1, 2],
+    bgcolor: "bg-purple-cs",
+    textColor: "white",
+  },
+  {
+    id: 2,
+    image: step2,
+    description: `This is when the clay starts to take shape. At this stage, we start to pull and plan actual materials and present them to the client. Room and furniture layouts, cabinetry, appliances and plumbing are all reviewed at this stage to ensure they are meeting your functional needs. Because good design is functional design.`,
+    title: "Design & Development",
+    order: [2, 1],
+    bgcolor: "bg-orange-cs",
+    textColor: "dark",
+  },
+  {
+    id: 3,
+    image: step3,
+    description: `the pieces are falling into place now. At this stage, the ideas have been approved and evaluated and we begin with drawings. Areas we’ve specified with materials will be drawn out for design intent and approval and we will use the architect’s drawings to create the plans needed. Each drawing will follow an approval process with the client to allow for changes and revisions. All approved materials (stones, woods, tiles, appliances, plumbing, etc.) will be specified and given to your builder for pricing.`,
+    title: "Construction drawing & documentation",
+    order: [1, 2],
+    bgcolor: "bg-yellow-cs",
+
+    textColor: "dark",
+  },
+  {
+    id: 4,
+    image: step4,
+    description: `Documents are being submitted and the ball is rolling. We want this process to feel stress-free and fun for you, so we carefully monitor everything from beginning to end. We’ll make ourselves available for meetings, coordinate monthly status reports, and track every order so you’re never left in the dark.`,
+    title: "Coordination & supervision",
+    order: [2, 1],
+    bgcolor: "bg-red-cs",
+    textColor: "white",
+  },
+  {
+    id: 5,
+    image: step5,
+    description: `The final step of the process is selecting furniture, fabric and lighting. These finishes are the biggest touch points of a home. They’re what you’ll interact with on a day-to-day basis and bring an interior to life. So we’ll visit showrooms, interact with textures, and scrupulously analyze light fixtures until everything feels just right.`,
+    title: "Furniture, Fabric & Lighting Selections",
+    order: [1, 2],
+    bgcolor: "bg-dark",
+    textColor: "white",
+  },
+];
