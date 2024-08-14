@@ -17,15 +17,15 @@ import { SmallCompanyTag } from "@/components/compant-tag";
 
 export const MobileNavigation = () => {
   return (
-    <div className="lg:hidden relative">
+    <div className="lg:hidden relative ">
       <Sheet>
-        <SheetTrigger asChild>
+        <SheetTrigger asChild className="z-[199] relative ">
           <Button className="px-2 py-2.5">
             <HiBars3 className="size-7" />
           </Button>
         </SheetTrigger>
 
-        <SheetContent className="flex flex-col justify-between">
+        <SheetContent className="flex flex-col justify-between z-[999] ">
           {/* to fix unexpected console error in when using sheet component */}
           <VisuallyHidden>
             <SheetHeader>

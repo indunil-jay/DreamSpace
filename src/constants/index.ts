@@ -339,3 +339,7 @@ export const navigation = [
   { id: 4, url: "/about", name: "about", bgfill: false },
   { id: 5, url: "/contact", name: "contact", bgfill: true },
 ] as const;
+
+// OUR-PROCESS-PAGE
+import ourprocessHeroImg from "../../public/our-process/hero-our-process.jpg";
+export { ourprocessHeroImg };
