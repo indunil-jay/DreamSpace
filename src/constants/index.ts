@@ -1,3 +1,38 @@
+//# why choose use
+
+export const skillsCards = [
+  {
+    style: "!bg-orange-500 border-orange-500",
+    id: 1,
+    titel: "# Passionate",
+    text: "We are a team that takes time to listen to your story so that we cultivate a deep understanding of what makes a space feel authentic to you. We then use this knowledge alongside our interior design mastery to craft an environment with you as the centerpiece.",
+  },
+  {
+    style: "!bg-red-cs border-red-cs",
+    id: 2,
+    titel: "# Creative",
+    text: "We are supported by an incredible network of architects,designers, and builders to bring the space you've always dreamed of to life.",
+  },
+  {
+    style: "!bg-purple-cs border-purple-cs",
+    id: 3,
+    titel: "# Inquisitive",
+    text: "We seek harmony in all of our concepts and physical spaces asking meaningful questions during the entire process from ideation to completion.",
+  },
+  {
+    style: "!bg-emerald-500 border-emerald-500",
+    id: 4,
+    titel: "# Transformational",
+    text: "A beautiful and functional home holds the capacity to transform your mental, emotional, and physical state bringing you to a higher place in your general well-being and everyday life.",
+  },
+  {
+    style: "!bg-blue-500 border-blue-500",
+    id: 5,
+    titel: "# Friendly",
+    text: " WE WOULD ALWAYS RESPECT YOUR IDEAS AND THOUGHTS as we as a team,we could blend all our creativity to make the design perfect and to create your dream interior into a reality.",
+  },
+];
+
 import img1 from "../../public/hero-slides/slide-1.jpg";
 import img2 from "../../public/hero-slides/slide-2.jpg";
 import img3 from "../../public/hero-slides/slide-3.jpg";

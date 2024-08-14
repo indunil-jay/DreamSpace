@@ -147,3 +147,12 @@
   width: 6px;
   height: 6px;
 }
+
+/* card swipper */
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+}
