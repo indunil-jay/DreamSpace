@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn("antialiased min-h-dvh", poppins.className)}>
+      <body className={cn("antialiased min-h-dvh relative", poppins.className)}>
         <Header />
         {children}
         <Footer />

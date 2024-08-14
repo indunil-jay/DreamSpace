@@ -1,5 +1,6 @@
 import { SectionHeader } from "@/components/section-header";
 import { Swipper } from "@/components/swipper";
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -11,6 +12,7 @@ import { Separator } from "@/components/ui/separator";
 
 import { projects, slides2 } from "@/constants";
 import dayjs from "dayjs";
+import Link from "next/link";
 import { FaLocationDot } from "react-icons/fa6";
 import { FcShop } from "react-icons/fc";
 import { PiDotFill } from "react-icons/pi";
@@ -65,7 +67,14 @@ const ProjectCard = () => {
                   </div>
                 </div>
               </div>
+
+              <Button>
+                <Link href={`/portfolio/${1}`} className="uppercase">
+                  View more details
+                </Link>
+              </Button>
             </div>
+
             <div className="self-end">
               <p className="text-dark/70 text-sm">
                 {dayjs().format("ddd, MMM D, YYYY h:mm A")}

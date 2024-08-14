@@ -80,7 +80,7 @@
 
 @layer components {
   .heading-main {
-    @apply text-[2.4rem] md:text-[3rem] leading-tight  capitalize font-semibold;
+    @apply text-[2.35rem] md:text-[3rem] leading-tight  capitalize font-semibold;
   }
   .side-gutter {
     @apply px-2 sm:px-6;
