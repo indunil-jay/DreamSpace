@@ -19,7 +19,7 @@ import { PiDotFill } from "react-icons/pi";
 // Define the project type
 type TProject = (typeof projects)[number];
 
-const WorkCard = ({ project }: { project: TProject }) => {
+export const WorkCard = ({ project }: { project: TProject }) => {
   return (
     <Card className="overflow-clip max-w-[320px] w-full hover:shadow-lg">
       <div className="h-[200px] aspect-video relative">

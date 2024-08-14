@@ -2,10 +2,10 @@ import { cn } from "@/lib/utils";
 import { GradientTag } from "./gradient-tag";
 
 interface HeaderProps {
-  tag: string;
+  tag?: string;
   headerUnderline?: boolean;
   title: string;
-  paragraphText: string;
+  paragraphText?: string;
   paragraphTextColor?: "light" | "dark";
 }
 
@@ -28,7 +28,8 @@ export const SectionHeader = ({
   );
 };
 
-const SectionTag = ({ tag }: { tag: string }) => {
+const SectionTag = ({ tag }: { tag: string | undefined }) => {
+  if (!tag) return null;
   return <GradientTag>{tag}</GradientTag>;
 };
 
@@ -55,9 +56,10 @@ const SectionParagraph = ({
   paragraphText,
   paragraphTextColor,
 }: {
-  paragraphText: string;
+  paragraphText: string | undefined;
   paragraphTextColor: "light" | "dark";
 }) => {
+  if (!paragraphText) return null;
   return (
     <p
       className={cn(
