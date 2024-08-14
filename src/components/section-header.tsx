@@ -42,7 +42,7 @@ const SectionTitle = ({
   return (
     <h2
       className={cn(
-        "md:text-[2.875rem] text-[2.125rem]  font-semibold uppercase ",
+        "md:text-[2.875rem] text-[2.2rem]  font-semibold uppercase ",
         underline && "underline underline-offset-8 decoration-wavy"
       )}
     >
@@ -61,7 +61,7 @@ const SectionParagraph = ({
   return (
     <p
       className={cn(
-        "text-[13px]  font-medium mt-8",
+        "text-[13px]  font-medium mt-5",
         paragraphTextColor === "light" && "text-white/70",
         paragraphTextColor === "dark" && "text-dark/70"
       )}

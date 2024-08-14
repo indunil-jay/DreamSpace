@@ -1,3 +1,99 @@
+// # testimonial
+import avatar1 from "../../public/users/user-1.jpg";
+
+export const testimonials = [
+  {
+    text: "Transforming our office space with their design expertise has been a game changer. The warmth and sophistication they infused into our workspace are simply unmatched.",
+    imageSrc: avatar1,
+    name: "Sophia Martinez",
+    username: "@sophiamartinez",
+  },
+  {
+    text: "Their attention to detail and ability to blend style with functionality have made our retail shop in Bangalore both elegant and practical.",
+    imageSrc: avatar1,
+    name: "Michael Bennett",
+    username: "@michaelbennett",
+  },
+  {
+    text: "We were blown away by the creativity and passion they brought to our hotel project. The ambiance they created is a perfect reflection of our brand.",
+    imageSrc: avatar1,
+    name: "Emily Chen",
+    username: "@emilychen",
+  },
+  {
+    text: "From concept to completion, their design team exceeded our expectations. Our personal house feels like a sanctuary now.",
+    imageSrc: avatar1,
+    name: "David King",
+    username: "@davidking",
+  },
+  {
+    text: "Their innovative approach to our hospital's design captured the essence of care and comfort, leaving a lasting impression on our patients.",
+    imageSrc: avatar1,
+    name: "Laura Brown",
+    username: "@laurabrown",
+  },
+  {
+    text: "The combination of warmth, romance, and a modern edge in their designs for our hotel in Bangalore is truly exceptional. We're thrilled with the results.",
+    imageSrc: avatar1,
+    name: "Chris Walker",
+    username: "@chriswalker",
+  },
+  {
+    text: "Their team's dedication to creating a stylish and inviting retail shop made all the difference. Our customers are always in awe.",
+    imageSrc: avatar1,
+    name: "Ava Rodriguez",
+    username: "@avarodriguez",
+  },
+  {
+    text: "They transformed our outdated office space into a chic and sophisticated environment that reflects our company's personality perfectly.",
+    imageSrc: avatar1,
+    name: "Noah Anderson",
+    username: "@noahanderson",
+  },
+  {
+    text: "Their unique design perspective has brought a new level of warmth and comfort to our personal home. We couldn't be happier.",
+    imageSrc: avatar1,
+    name: "Olivia Harris",
+    username: "@oliviaharris",
+  },
+  {
+    text: "Working with them was a pleasure. Their ability to understand our needs and deliver beyond our expectations for our commercial project in Bangalore is impressive.",
+    imageSrc: avatar1,
+    name: "Lucas Johnson",
+    username: "@lucasjohnson",
+  },
+  {
+    text: "Our retail shop has never looked better. Their design has created a welcoming atmosphere that our customers love.",
+    imageSrc: avatar1,
+    name: "Grace Thompson",
+    username: "@gracethompson",
+  },
+  {
+    text: "Their creativity knows no bounds. The way they transformed our personal house into something elegant yet cozy is remarkable.",
+    imageSrc: avatar1,
+    name: "Benjamin Lewis",
+    username: "@benjaminlewis",
+  },
+  {
+    text: "Their design brought new life to our hotel, combining aesthetics with comfort. It's now our guests' favorite place to stay.",
+    imageSrc: avatar1,
+    name: "Emma White",
+    username: "@emmawhite",
+  },
+  {
+    text: "The level of professionalism and creativity they brought to our hospital project was outstanding. We couldn't be happier with the result.",
+    imageSrc: avatar1,
+    name: "Jack Wilson",
+    username: "@jackwilson",
+  },
+  {
+    text: "Their design team turned our vision into reality, creating a commercial space in Bangalore that perfectly reflects our style and needs.",
+    imageSrc: avatar1,
+    name: "Mia Green",
+    username: "@miagreen",
+  },
+];
+
 // # project
 import ctaImage from "../../public/cta.jpg";
 export { ctaImage };

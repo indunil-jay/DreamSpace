@@ -77,7 +77,7 @@ const WorkCard = ({ project }: { project: TProject }) => {
 
 export const OurWorkSection = () => {
   return (
-    <section className="py-20">
+    <section className="py-20 bg-gradient-to-b from-background-light to-background-white">
       <SectionHeader
         tag="Past works"
         title="Our works"
