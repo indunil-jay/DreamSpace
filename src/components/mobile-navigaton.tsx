@@ -1,5 +1,6 @@
 import {
   Sheet,
+  SheetClose,
   SheetContent,
   SheetDescription,
   SheetFooter,
@@ -34,7 +35,9 @@ export const MobileNavigation = () => {
           </VisuallyHidden>
 
           <nav className="mt-10 justify-center flex items-center lg:hidden">
-            <HeaderNavigation />
+            <SheetClose asChild>
+              <HeaderNavigation />
+            </SheetClose>
           </nav>
 
           <SheetFooter>
