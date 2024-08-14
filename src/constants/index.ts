@@ -2,6 +2,60 @@ import img1 from "../../public/hero-slides/slide-1.jpg";
 import img2 from "../../public/hero-slides/slide-2.jpg";
 import img3 from "../../public/hero-slides/slide-3.jpg";
 import img4 from "../../public/hero-slides/slide-4.jpg";
+import building1 from "../../public/what-we-do/building-1.svg";
+import building2 from "../../public/what-we-do/building-2.svg";
+import building3 from "../../public/what-we-do/building-3.svg";
+import building4 from "../../public/what-we-do/building-4.svg";
+import building5 from "../../public/what-we-do/building-5.svg";
+import building6 from "../../public/what-we-do/building-6.svg";
+
+export const offerCards = [
+  {
+    id: 1,
+    title: "Commercial Design",
+    image: building1,
+    description:
+      "With years of expertise in marketing and luxury brand development, we deeply understand corporate identity and brand awareness. We bring brands to life through meticulously crafted interior designs that reflect your business's essence.",
+  },
+  {
+    id: 2,
+    title: "Residential Design",
+    image: building2,
+    description:
+      "Our signature style transcends fleeting interior trends, offering timeless and contemporary designs. We create spaces that are not only beautiful but also enhance the lifestyles of our clients with thoughtful, personalized elements.",
+  },
+
+  {
+    id: 3,
+    title: "Hospitality Design",
+    image: building3,
+    description:
+      "We design hospitality spaces that captivate and leave a lasting impression on guests. Our approach creates a visual narrative, ensuring that your space is memorable long after check-out.",
+  },
+  {
+    id: 4,
+    title: "Product Design",
+    image: building4,
+    description:
+      "A well-executed concept can result in timeless furniture that never goes out of style. We craft furniture and fittings that reflect your space's unique character, combining simplicity with sophistication.",
+  },
+  {
+    id: 5,
+    title: "Office Design",
+    image: building5,
+    description:
+      "We design workspaces that inspire productivity and creativity. Our office designs prioritize functionality without compromising on style, creating environments that foster innovation and collaboration/",
+  },
+  {
+    id: 6,
+    title: "Retail Design",
+    image: building6,
+    description:
+      "We create retail spaces that not only attract customers but also enhance the shopping experience. Our designs integrate brand identity with customer engagement, ensuring that your store stands out and drives sales.",
+  },
+];
+
+// hero slider
 import img5 from "../../public/hero-slides/slide-5.jpg";
 import img6 from "../../public/hero-slides/slide-6.jpg";
 import img7 from "../../public/hero-slides/slide-7.jpg";
