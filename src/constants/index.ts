@@ -1,76 +1,117 @@
 // # project
 import ctaImage from "../../public/cta.jpg";
 export { ctaImage };
+
 export const projects = [
   {
     id: 1,
     name: " the grand apartment, ward place",
     type: "Coffee shop",
     location: "colombo, Rathmalana",
-    image: ctaImage,
+    image: ctaImage.src,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor
+          ipsam incidunt qui similique eveniet ex quasi praesentium inventore
+          consequatur corrupti blanditiis voluptas quo perferendis temporibus
+          odio consectetur, expedita a?`,
   },
   {
     id: 2,
     name: " the grand apartment, ward place",
     type: "Coffee shop",
     location: "colombo, Rathmalana",
-    image: ctaImage,
+    image: ctaImage.src,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor
+          ipsam incidunt qui similique eveniet ex quasi praesentium inventore
+          consequatur corrupti blanditiis voluptas quo perferendis temporibus
+          odio consectetur, expedita a?`,
   },
   {
     id: 3,
     name: " the grand apartment, ward place",
     type: "Coffee shop",
     location: "colombo, Rathmalana",
-    image: ctaImage,
+    image: ctaImage.src,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor
+          ipsam incidunt qui similique eveniet ex quasi praesentium inventore
+          consequatur corrupti blanditiis voluptas quo perferendis temporibus
+          odio consectetur, expedita a?`,
   },
   {
     id: 4,
     name: " the grand apartment, ward place",
     type: "Coffee shop",
     location: "colombo, Rathmalana",
-    image: ctaImage,
+    image: ctaImage.src,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor
+          ipsam incidunt qui similique eveniet ex quasi praesentium inventore
+          consequatur corrupti blanditiis voluptas quo perferendis temporibus
+          odio consectetur, expedita a?`,
   },
   {
     id: 5,
     name: " the grand apartment, ward place",
     type: "Coffee shop",
     location: "colombo, Rathmalana",
-    image: ctaImage,
+    image: ctaImage.src,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor
+          ipsam incidunt qui similique eveniet ex quasi praesentium inventore
+          consequatur corrupti blanditiis voluptas quo perferendis temporibus
+          odio consectetur, expedita a?`,
   },
   {
     id: 6,
     name: " the grand apartment, ward place",
     type: "Coffee shop",
     location: "colombo, Rathmalana",
-    image: ctaImage,
+    image: ctaImage.src,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor
+          ipsam incidunt qui similique eveniet ex quasi praesentium inventore
+          consequatur corrupti blanditiis voluptas quo perferendis temporibus
+          odio consectetur, expedita a?`,
   },
   {
     id: 7,
     name: " the grand apartment, ward place",
     type: "Coffee shop",
     location: "colombo, Rathmalana",
-    image: ctaImage,
+    image: ctaImage.src,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor
+          ipsam incidunt qui similique eveniet ex quasi praesentium inventore
+          consequatur corrupti blanditiis voluptas quo perferendis temporibus
+          odio consectetur, expedita a?`,
   },
   {
     id: 8,
     name: " the grand apartment, ward place",
     type: "Coffee shop",
     location: "colombo, Rathmalana",
-    image: ctaImage,
+    image: ctaImage.src,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor
+          ipsam incidunt qui similique eveniet ex quasi praesentium inventore
+          consequatur corrupti blanditiis voluptas quo perferendis temporibus
+          odio consectetur, expedita a?`,
   },
   {
     id: 9,
     name: " the grand apartment, ward place",
     type: "Coffee shop",
     location: "colombo, Rathmalana",
-    image: ctaImage,
+    image: ctaImage.src,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor
+          ipsam incidunt qui similique eveniet ex quasi praesentium inventore
+          consequatur corrupti blanditiis voluptas quo perferendis temporibus
+          odio consectetur, expedita a?`,
   },
   {
     id: 10,
     name: " the grand apartment, ward place",
     type: "Coffee shop",
     location: "colombo, Rathmalana",
-    image: ctaImage,
+    image: ctaImage.src,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor
+          ipsam incidunt qui similique eveniet ex quasi praesentium inventore
+          consequatur corrupti blanditiis voluptas quo perferendis temporibus
+          odio consectetur, expedita a?`,
   },
 ];
 
