@@ -1,3 +1,4 @@
+"use client";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -20,18 +21,18 @@ export const HeaderNavigation = () => {
             key={item.id}
             className={cn(
               "py-3 border-b last:border-none lg:p-0 lg:border-none",
-              pathname === item.url && "border-b-2 border-black "
+              pathname === item.url && "border-b-2 border-dark "
             )}
           >
             <Link href={item.url} legacyBehavior passHref>
               <NavigationMenuLink
                 className={cn(
                   navigationMenuTriggerStyle(),
-                  "uppercase font-medium text-foreground-dark/70 cursor-pointer transition-all",
+                  "uppercase font-medium text-dark/70 cursor-pointer transition-all",
                   pathname === item.url &&
-                    "text-foreground-dark lg:underline underline-offset-4 decoration-2",
+                    "text-dark lg:underline underline-offset-4 decoration-2",
                   item.bgfill &&
-                    "bg-black/90 text-background-white/80 no-underline hover:text-white hover:bg-black"
+                    "bg-dark/95 text-background-white/85 no-underline hover:text-white hover:bg-dark"
                 )}
               >
                 {item.name}

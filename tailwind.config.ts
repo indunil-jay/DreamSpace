@@ -61,9 +61,13 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
 
-        "foreground-dark": withOpacity("--foreground-dark") as any,
         "background-light": withOpacity("--background-light") as any,
         "background-white": withOpacity("--background-white") as any,
+        dark: withOpacity("--color-dark") as any,
+        "yellow-cs": withOpacity("--color-yellow-cs") as any,
+        "purple-cs": withOpacity("--color-purple-cs") as any,
+        "red-cs": withOpacity("--color-red-cs") as any,
+        "orange-cs": withOpacity("--color-orange-cs") as any,
       },
 
       borderRadius: {
