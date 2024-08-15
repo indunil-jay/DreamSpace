@@ -17,8 +17,8 @@ export const AboutContentSection = () => {
             headerUnderline={false}
           />
 
-          <div className="space-y-3 text-sm text-white/70 mt-3 transition-colors hover:text-white">
-            <p className="indent-8">
+          <div className="space-y-3 text-sm text-white/70 mt-3 transition-colors hover:text-white text-pretty">
+            <p className="indent-8 ">
               DreamSpace is a full-service interior design firm dedicated to
               crafting exceptional and innovative spaces that reflect the unique
               vision of each client. Specializing in residential, commercial,

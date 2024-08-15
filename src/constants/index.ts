@@ -402,3 +402,36 @@ export const processArr = [
 import aboutHeroImg from "../../public/about/about-cover.jpg";
 import aboutHeromobileImg from "../../public/about/about-mobile.jpeg";
 export { aboutHeroImg, aboutHeromobileImg };
+
+export const projectsTypes = [
+  {
+    id: 1,
+    type: "retails design",
+    count: 500,
+  },
+  {
+    id: 2,
+    type: "office design ",
+    count: 440,
+  },
+  {
+    id: 3,
+    type: "product design",
+    count: 660,
+  },
+  {
+    id: 4,
+    type: "hospitals design",
+    count: 20,
+  },
+  {
+    id: 5,
+    type: "residential design",
+    count: 80,
+  },
+  {
+    id: 6,
+    type: "commericial design",
+    count: 80,
+  },
+];
