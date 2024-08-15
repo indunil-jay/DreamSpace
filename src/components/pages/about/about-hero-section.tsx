@@ -31,6 +31,7 @@ export const AboutHeroSection = () => {
           className="object-cover overflow-clip"
         />
       </div>
+      <section className="z-[100] min-h-[calc(100dvh-5rem)] h-[calc(100dvh-5rem)] flex flex-col  justify-center overflow-hidden"></section>
     </>
   );
 };
