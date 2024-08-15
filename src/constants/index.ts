@@ -435,3 +435,39 @@ export const projectsTypes = [
     count: 80,
   },
 ];
+
+import user1 from "../../public/team/user-1.png";
+import user2 from "../../public/team/user-2.png";
+import user3 from "../../public/team/user-3.png";
+import user4 from "../../public/team/user-4.png";
+
+export const teamMembers = [
+  {
+    id: 1,
+    name: "jehan perera",
+    title: "head of interior design",
+    email: "jehan@dreamspace.info",
+    image: user1,
+  },
+  {
+    id: 2,
+    name: "devoni michel",
+    title: "head of marketing & operations",
+    email: "devon@dreamspace.info",
+    image: user3,
+  },
+  {
+    id: 3,
+    name: "calcy fernando",
+    title: "head of interior design",
+    email: "clacy@dreamspace.info",
+    image: user4,
+  },
+  {
+    id: 4,
+    name: "perter noval",
+    title: "head of supplies & manufacturing ",
+    email: "peter@dreamspace.info",
+    image: user2,
+  },
+];

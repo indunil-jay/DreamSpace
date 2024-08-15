@@ -11,11 +11,7 @@ export const AboutContentSection = () => {
         </div>
 
         <div className="bg-dark/90 text-white side-gutter p-10 flex items-center justify-center flex-col">
-          <SectionHeader
-            title="OUR STORY"
-            tag="Where vision meets reality"
-            headerUnderline={false}
-          />
+          <SectionHeader title="OUR STORY" tag="Where vision meets reality" />
 
           <div className="space-y-3 text-sm text-white/70 mt-3 transition-colors hover:text-white text-pretty">
             <p className="indent-8 ">
