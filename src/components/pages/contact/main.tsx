@@ -1,4 +1,4 @@
-import { ContactFormSection } from "./contact-form";
+import { ContactFormSection } from "./contact-content";
 import { ContactHeroSection } from "./contact-hero";
 
 export const Main = () => {
