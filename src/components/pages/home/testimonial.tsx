@@ -19,7 +19,10 @@ const Column = ({ column, style, duration }: IColum) => {
     <div className={cn(style)}>
       <div className="flex flex-col items-center justify-center gap-6 pb-6">
         {column.map((t) => (
-          <div className="p-10 rounded-3xl shadow-[0_7px_14px_#EAEAEA] border border-[#f1f1f1] max-w-xs w-full">
+          <div
+            key={t.name}
+            className="p-10 rounded-3xl shadow-[0_7px_14px_#EAEAEA] border border-[#f1f1f1] max-w-xs w-full"
+          >
             <div>
               <span className="text-[13px]">{t.text}</span>
             </div>

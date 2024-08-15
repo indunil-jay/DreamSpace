@@ -79,7 +79,7 @@ export const ProcessContent = () => {
               variant={"link"}
               className="italic font-semibold text-white/90"
             >
-              Let's Begin
+              Let&apos;s Begin
             </Button>
           </div>
         </div>
