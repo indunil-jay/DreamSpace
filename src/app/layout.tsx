@@ -4,6 +4,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { ScrollTop } from "@/components/design/top-scroll-visual-bar";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn("antialiased min-h-dvh relative", poppins.className)}>
+        <ScrollTop />
         <Header />
         {children}
         <Footer />
