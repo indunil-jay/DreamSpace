@@ -1,8 +1,10 @@
+"use client";
 import { offerCards } from "@/constants";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { slides } from "@/constants";
 import { SectionHeader } from "@/components/section-header";
 import { Swipper } from "@/components/swipper";
+import { motion } from "framer-motion";
 
 export const WhatWeDoSection = () => {
   return (
@@ -19,27 +21,37 @@ export const WhatWeDoSection = () => {
 
       <div className="mt-10">
         <ul className="grid grid-cols-[340px]  lg:grid-cols-[340px_340px_340px] gap-6 justify-center">
-          {offerCards.map((card) => (
-            <Card
+          {offerCards.map((card, index) => (
+            <motion.div
               key={card.id}
-              className="max-w-[340px] w-full px-2 py-3 rounded-3xl bg-white mx-auto transition-all shadow-light hover:shadow-xl border-light group cursor-pointer"
+              animate={{ opacity: 0, scale: 0.2 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true, amount: 0.1 }}
+              transition={{
+                delay: index * 0.2,
+              }}
             >
-              <CardHeader>
-                <CardTitle className="transition-all group-hover:underline group-hover:underline-offset-4">
-                  {card.title}
-                </CardTitle>
-              </CardHeader>
+              <Card
+                key={card.id}
+                className="max-w-[340px] w-full px-2 py-3 rounded-3xl bg-white mx-auto transition-all shadow-light hover:shadow-xl border-light group cursor-pointer"
+              >
+                <CardHeader>
+                  <CardTitle className="transition-all group-hover:underline group-hover:underline-offset-4">
+                    {card.title}
+                  </CardTitle>
+                </CardHeader>
 
-              <CardContent>
-                <div className="relative flex justify-center">
-                  <card.image className="group-hover:scale-[103%] transition-all" />
-                </div>
+                <CardContent>
+                  <div className="relative flex justify-center">
+                    <card.image className="group-hover:scale-[103%] transition-all" />
+                  </div>
 
-                <p className="text-dark/70 mt-5 text-sm transition-all group-hover:text-dark">
-                  {card.description}
-                </p>
-              </CardContent>
-            </Card>
+                  <p className="text-dark/70 mt-5 text-sm transition-all group-hover:text-dark">
+                    {card.description}
+                  </p>
+                </CardContent>
+              </Card>
+            </motion.div>
           ))}
         </ul>
       </div>
