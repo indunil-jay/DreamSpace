@@ -1,3 +1,4 @@
+"use client";
 import { SectionHeader } from "@/components/section-header";
 import { Swipper } from "@/components/swipper";
 import { Button } from "@/components/ui/button";
@@ -16,74 +17,78 @@ import Link from "next/link";
 import { FaLocationDot } from "react-icons/fa6";
 import { FcShop } from "react-icons/fc";
 import { PiDotFill } from "react-icons/pi";
+import { motion } from "framer-motion";
 
-const ProjectCard = () => {
+const ProjectCard = ({ project }: { project: (typeof projects)[number] }) => {
   return (
-    <Card>
-      <CardHeader>
-        <CardTitle className="uppercase text-[1.8rem]">
-          Inside a Vibrant Bay Area Home
-        </CardTitle>
-        <Separator />
-      </CardHeader>
-      <CardContent>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
-          <div className="w-full min-h-[340px] h-[340px] relative rounded-md overflow-clip">
-            <Swipper slides={slides2} navigation={false} pagination={false} />
-          </div>
-          <div className="flex flex-col justify-between">
-            <div className="flex flex-col space-y-4">
-              <CardDescription className="line-clamp-[10] text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolores, cupiditate necessitatibus doloribus veniam voluptatum
-                velit harum minus vitae accusamus itaque recusandae molestias,
-                explicabo laborum? Error eaque adipisci in perspiciatis ea,
-                architecto veniam tempore sed pariatur, nulla nam, nobis magnam
-                fuga.
-              </CardDescription>
-              <div>
-                <div className="grid grid-cols-[max-content_1fr] gap-2">
-                  <div className="flex items-center gap-0.5">
-                    <PiDotFill className="size-6 text-purple-cs" />
-                    <span className="text-xs font-semibold">Type : </span>
+    <motion.div
+      animate={{ opacity: 0.2, scale: 0.3 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true, amount: 0.1 }}
+      className="overflow-clip"
+    >
+      <Card>
+        <CardHeader>
+          <CardTitle className="uppercase text-[1.8rem]">
+            {project.name}
+          </CardTitle>
+          <Separator />
+        </CardHeader>
+        <CardContent>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
+            <div className="w-full min-h-[340px] h-[340px] relative rounded-md overflow-clip">
+              <Swipper slides={slides2} navigation={false} pagination={false} />
+            </div>
+            <div className="flex flex-col justify-between">
+              <div className="flex flex-col ">
+                <CardDescription className="line-clamp-[10] text-sm mb-4">
+                  {project.description}
+                </CardDescription>
+
+                <div className="space-y-2">
+                  <div className="grid grid-cols-[max-content_1fr] gap-2">
+                    <div className="flex items-center gap-0.5">
+                      <PiDotFill className="size-6 text-purple-cs" />
+                      <span className="text-xs font-semibold">Type : </span>
+                    </div>
+                    <div className="flex items-center gap-0.5">
+                      <FcShop />
+                      <span className="font-medium text-xs capitalize">
+                        {project.type}
+                      </span>
+                    </div>
                   </div>
-                  <div className="flex items-center gap-0.5">
-                    <FcShop />
-                    <span className="font-medium text-xs capitalize">
-                      {/* {project.type} */}coffee shop
-                    </span>
+                  <div className="grid grid-cols-[max-content_1fr] gap-2">
+                    <div className="flex items-center gap-0.5">
+                      <PiDotFill className="size-6 text-purple-cs" />
+                      <span className="text-xs font-semibold">Location : </span>
+                    </div>
+                    <div className="flex items-center gap-0.5">
+                      <FaLocationDot className="text-emerald-500" />
+                      <span className="font-medium text-xs capitalize">
+                        {project.location}
+                      </span>
+                    </div>
                   </div>
                 </div>
-                <div className="grid grid-cols-[max-content_1fr] gap-2">
-                  <div className="flex items-center gap-0.5">
-                    <PiDotFill className="size-6 text-purple-cs" />
-                    <span className="text-xs font-semibold">Location : </span>
-                  </div>
-                  <div className="flex items-center gap-0.5">
-                    <FaLocationDot className="text-emerald-500" />
-                    <span className="font-medium text-xs capitalize">
-                      {/* {project.location} */} kandy, peradeniya
-                    </span>
-                  </div>
-                </div>
+
+                <Button className="mt-6">
+                  <Link href={`/portfolio/${1}`} className="uppercase">
+                    View more details
+                  </Link>
+                </Button>
               </div>
 
-              <Button>
-                <Link href={`/portfolio/${1}`} className="uppercase">
-                  View more details
-                </Link>
-              </Button>
-            </div>
-
-            <div className="self-end">
-              <p className="text-dark/70 text-sm">
-                {dayjs().format("ddd, MMM D, YYYY h:mm A")}
-              </p>
+              <div className="self-end">
+                <p className="text-dark/70 text-sm">
+                  {dayjs().format("ddd, MMM D, YYYY h:mm A")}
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </CardContent>
-    </Card>
+        </CardContent>
+      </Card>
+    </motion.div>
   );
 };
 
@@ -100,7 +105,7 @@ export const ProjectSection = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
           {projects.map((project) => (
-            <ProjectCard key={project.id} />
+            <ProjectCard key={project.id} project={project} />
           ))}
         </div>
       </div>

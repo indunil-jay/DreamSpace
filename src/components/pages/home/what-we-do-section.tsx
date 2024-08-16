@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 export const WhatWeDoSection = () => {
   return (
-    <section className="pt-20  bg-gradient-to-b from-transparent to-white">
+    <section className="pt-20 overflow-clip  bg-gradient-to-b from-transparent to-white">
       <SectionHeader
         title="What we do"
         tag="Let's create your dream interior into a reality"

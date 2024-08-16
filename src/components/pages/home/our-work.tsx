@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 export const OurWorkSection = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-background-light to-background-white">
+    <section className="pt-20 pb-10 bg-gradient-to-b from-background-light to-background-white">
       <SectionHeader
         tag="Past works"
         title="Our works"

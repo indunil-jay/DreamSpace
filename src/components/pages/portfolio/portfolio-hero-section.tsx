@@ -2,7 +2,7 @@ import { Circle3 } from "@/components/design/circl3";
 
 export const PortfolioHero = () => {
   return (
-    <section className="pt-10 ">
+    <section className="pt-10  overflow-x-clip">
       <div className="text-center max-w-screen-md mx-auto w-full side-gutter relative ">
         <h1 className="heading-main mt-2">
           Showcasing Our Interior Masterpieces
