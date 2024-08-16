@@ -1,4 +1,3 @@
-"use client";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -15,15 +14,13 @@ import { BsArrowRight } from "react-icons/bs";
 import { FaLocationDot } from "react-icons/fa6";
 import { FcShop } from "react-icons/fc";
 import { PiDotFill } from "react-icons/pi";
-import { motion, AnimatePresence } from "framer-motion";
-import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 type TProject = (typeof projects)[number];
 
 export const WorkCard = ({ project }: { project: TProject }) => {
   return (
-    <Card className="overflow-clip max-w-[320px] w-full hover:shadow-lg">
+    <Card className="overflow-clip max-w-[320px] w-full hover:shadow-lg flex-none">
       <div className="h-[200px] aspect-video relative">
         <Image src={project.image} alt="card-image" fill />
       </div>
@@ -81,26 +78,14 @@ export const WorkCard = ({ project }: { project: TProject }) => {
 
 export const WorksCards = () => {
   return (
-    <div className="pt-10 flex overflow-hidden justify-center [mask-image:linear-gradient(to_left,transparent,black_25%,black_75%,transparent)]">
-      <AnimatePresence>
-        <motion.div
-          animate={{
-            translateX: "-50%",
-          }}
-          transition={{
-            repeat: Infinity,
-            ease: "linear",
-            duration: 10,
-          }}
-          className={cn(
-            "flex items-center justify-center gap-6 pr-6 max-w-full w-full  "
-          )}
-        >
+    <div className="pt-10 w-full flex justify-center">
+      <div className="overflow-x-auto pl-[3rem] pr-[3rem] works-scrollbar">
+        <div className="flex items-center gap-6 pb-[5rem] justify-start">
           {[...projects, ...projects].map((project) => (
             <WorkCard project={project} key={project.id} />
           ))}
-        </motion.div>
-      </AnimatePresence>
+        </div>
+      </div>
     </div>
   );
 };

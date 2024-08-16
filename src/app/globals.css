@@ -46,6 +46,9 @@
     box-sizing: border-box;
   }
 
+  html {
+  }
+
   body {
     @apply text-dark bg-gradient-to-b from-background-light to-background-white;
   }
@@ -153,4 +156,26 @@
   align-items: center;
   justify-content: center;
   border-radius: 18px;
+}
+
+/*  */
+/* For the entire document */
+.works-scrollbar::-webkit-scrollbar {
+  height: 2px; /* Width of the scrollbar */
+}
+
+/* Track */
+.works-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+}
+
+/* Handle */
+.works-scrollbar::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar handle */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Handle on hover */
+.works-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color when hovered */
 }
