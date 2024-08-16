@@ -17,6 +17,7 @@ import { FcShop } from "react-icons/fc";
 import { PiDotFill } from "react-icons/pi";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 type TProject = (typeof projects)[number];
 
@@ -65,12 +66,14 @@ export const WorkCard = ({ project }: { project: TProject }) => {
         </div>
       </CardContent>
       <CardFooter>
-        <Button>
-          <span className="uppercase">See details</span>
-          <span className="ml-2">
-            <BsArrowRight />
-          </span>
-        </Button>
+        <Link href={`/portfolio/${project.id}`}>
+          <Button>
+            <span className="uppercase">See details</span>
+            <span className="ml-2">
+              <BsArrowRight />
+            </span>
+          </Button>
+        </Link>
       </CardFooter>
     </Card>
   );

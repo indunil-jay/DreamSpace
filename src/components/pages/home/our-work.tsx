@@ -1,5 +1,7 @@
 import { SectionHeader } from "@/components/section-header";
 import { WorksCards } from "@/components/pages/home/our-work-cards";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export const OurWorkSection = () => {
   return (
@@ -11,7 +13,11 @@ export const OurWorkSection = () => {
           impact our work has on our clients."
       />
       <WorksCards />
-      <div className="flex justify-center mt-10"></div>
+      <div className="flex justify-center mt-10 ">
+        <Link href={`/portfolio`}>
+          <Button className="uppercase">See more</Button>
+        </Link>
+      </div>
     </section>
   );
 };
