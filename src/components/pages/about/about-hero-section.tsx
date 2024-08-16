@@ -5,6 +5,7 @@ import Image from "next/image";
 export const AboutHeroSection = () => {
   return (
     <>
+      <div className="h-[20rem] z-[98]  aspect-square rounded-full bg-yellow-cs absolute md:-top-[10rem] -top-[12rem] left-[-6rem] md:left-[-2rem]" />
       <div
         className={cn(
           "min-h-dvh h-dvh w-full top-0 absolute !overflow-hidden hidden md:block",
@@ -31,7 +32,11 @@ export const AboutHeroSection = () => {
           className="object-cover overflow-clip"
         />
       </div>
-      <section className="z-[100] min-h-[calc(100dvh-5rem)] h-[calc(100dvh-5rem)] flex flex-col  justify-center overflow-hidden"></section>
+      <section className=" min-h-[calc(100dvh-5rem)] h-[calc(100dvh-5rem)] flex flex-col  justify-center items-center overflow-hidden">
+        <h1 className="heading-main mt-2 text-white relative z-[9999]">
+          About us
+        </h1>
+      </section>
     </>
   );
 };

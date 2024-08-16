@@ -18,8 +18,9 @@ export const ProcessHeroSection = () => {
           className="object-cover overflow-clip"
         />
       </div>
+      <div className="h-[20rem] z-[999]  aspect-square rounded-full bg-yellow-cs absolute md:-top-[10rem] -top-[12rem] left-[-6rem] md:left-[-2rem]" />
 
-      <section className="relative z-[100] min-h-[calc(100dvh-5rem)] h-[calc(100dvh-5rem)] flex flex-col  justify-center overflow-hidden ">
+      <section className="relative z-[999] min-h-[calc(100dvh-5rem)] h-[calc(100dvh-5rem)] flex flex-col  justify-center overflow-hidden ">
         <div className="text-center max-w-screen-md mx-auto w-full side-gutter  relative -top-[2rem] ">
           <h1 className="heading-main mt-2 text-white">Our Proven Process</h1>
           <div className="mt-4 w-[85%] mx-auto">

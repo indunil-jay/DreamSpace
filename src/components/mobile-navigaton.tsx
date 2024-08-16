@@ -25,7 +25,7 @@ export const MobileNavigation = () => {
           </Button>
         </SheetTrigger>
 
-        <SheetContent className="flex flex-col justify-between z-[999] ">
+        <SheetContent className="flex flex-col justify-between z-[99999] ">
           {/* to fix unexpected console error in when using sheet component */}
           <VisuallyHidden>
             <SheetHeader>
