@@ -11,7 +11,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { navigation } from "@/constants";
 
-export const HeaderNavigation = () => {
+export const HeaderNavigation = ({ onClose }: { onClose?: () => void }) => {
   const pathname = usePathname();
   return (
     <NavigationMenu>
@@ -34,6 +34,7 @@ export const HeaderNavigation = () => {
                   item.bgfill &&
                     "bg-dark/95 text-background-white/85 no-underline hover:text-white hover:bg-dark"
                 )}
+                onClick={() => onClose?.()}
               >
                 {item.name}
               </NavigationMenuLink>
