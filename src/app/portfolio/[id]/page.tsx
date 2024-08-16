@@ -10,6 +10,23 @@ import Link from "next/link";
 import React from "react";
 import { IoChevronBackSharp } from "react-icons/io5";
 
+import { Metadata } from "next";
+
+export async function generateMetadata({
+  params: { id },
+}: {
+  params: { id: string };
+}): Promise<Metadata> {
+  const project = projects[+id - 1];
+  return {
+    title: project.name,
+    description: project.summary,
+    // openGraph:{
+    //   images:[{url:post.imageUrl}]
+    // }
+  };
+}
+
 const BackButton = () => {
   return (
     <Button className="bg-yellow-cs/90 group  transition-all hover:bg-yellow-cs">
