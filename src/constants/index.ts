@@ -361,204 +361,465 @@ export { ctaImage };
 export const projects = [
   {
     id: 1,
-    name: "The Grand Apartment, Ward Place",
-    type: "Coffee Shop",
-    location: "Colombo, Rathmalana",
-    image: img10,
-    images: [img10, img3, img4],
-    description: `The Grand Apartment, Ward Place, is a premier coffee shop located in the lively area of Colombo, Rathmalana. This coffee shop stands out not only for its exceptional coffee but also for its unique atmosphere that blends modern design with classic charm. Upon entering The Grand Apartment, visitors are greeted by an inviting interior that features plush seating, warm lighting, and tasteful decor that creates a cozy yet upscale ambiance. 
-
-    The design of the coffee shop is both elegant and functional, providing a comfortable space for patrons to relax, work, or socialize. The walls are adorned with local art that changes regularly, giving the space a dynamic and fresh feel. The furniture is a mix of vintage and contemporary styles, ensuring that the space feels both timeless and current. 
-
-    The menu at The Grand Apartment offers a wide variety of coffee options, from classic espressos and cappuccinos to more adventurous blends and seasonal specials. Each cup of coffee is made with the finest beans and brewed to perfection by skilled baristas. In addition to coffee, the shop offers a selection of pastries, sandwiches, and other light meals, all made fresh daily. The staff is known for their friendly and knowledgeable service, making every visit to The Grand Apartment a pleasant experience.
-
-    One of the highlights of The Grand Apartment is its commitment to creating a community space where people can gather and enjoy high-quality coffee in a relaxing environment. The coffee shop hosts regular events such as live music performances, art exhibitions, and coffee tasting sessions, which add to the vibrant atmosphere of the space. 
-
-    Whether you are a coffee connoisseur or simply looking for a comfortable place to unwind, The Grand Apartment, Ward Place, offers a unique and enjoyable experience. Its combination of excellent coffee, stylish design, and community-oriented approach makes it a standout destination in Colombo, Rathmalana.`,
-    clientname: "John Doe",
-    finishedDate: "2024-07-12",
+    name: "Luxe Lounge Cafe",
+    type: "Café",
+    requirement:
+      "Create a luxurious and inviting café with a modern, elegant design that integrates sustainable practices.",
+    location: "Colombo, Sri Lanka",
+    image: img1,
+    images: [img2, img3, img4],
+    summary:
+      "The Luxe Lounge Cafe project was a sophisticated endeavor that sought to blend contemporary design with an inviting atmosphere. Located in Colombo, the client envisioned a café that not only served as a dining spot but also as a social hub. The project focused on creating a unique experience with a chic and modern aesthetic, incorporating plush seating, elegant lighting, and an open layout that fostered interaction. The design integrated high-end materials and finishes to create an atmosphere of luxury and comfort. Sustainable practices were also incorporated, including energy-efficient lighting and eco-friendly materials, aligning with the client's vision of a stylish yet responsible establishment.",
+    description: [
+      {
+        id: 1,
+        title: "Planning & Conceptualizing",
+        text: "The planning phase of the Luxe Lounge Cafe project involved extensive discussions with the client to understand their vision and requirements. Our team conducted research on the latest trends in café design, focusing on creating a space that would be both aesthetically pleasing and functional. We developed initial concepts that included a modern, elegant design with an emphasis on comfort and luxury. Key elements such as layout, materials, and color schemes were carefully considered to ensure that the final design would meet the client's expectations. The planning phase also involved creating mood boards and design sketches to visualize the concept and make necessary adjustments before moving forward with the design development.",
+      },
+      {
+        id: 2,
+        title: "Design & Development",
+        text: "During the design and development phase, we translated the conceptual ideas into detailed design plans. The café’s layout was designed to maximize space and create a welcoming environment. We selected high-quality materials and finishes, including plush fabrics and elegant fixtures, to enhance the overall ambiance. The lighting design played a crucial role in setting the mood, with a mix of ambient, task, and accent lighting to create a dynamic and inviting atmosphere. Sustainable practices were incorporated, such as the use of energy-efficient LED lighting and eco-friendly materials, to ensure that the café not only looked luxurious but also adhered to environmental standards. Detailed design drawings and 3D renderings were created to provide a clear vision of the final space.",
+      },
+      {
+        id: 3,
+        title: "Construction Drawing & Documentation",
+        text: "The construction drawing and documentation phase involved creating detailed plans and specifications for the café’s construction. Our team prepared comprehensive drawings that included floor plans, elevations, and sections, ensuring that every aspect of the design was accurately represented. We coordinated with contractors to ensure that the construction process adhered to the design specifications and quality standards. The documentation also included schedules for materials and finishes, as well as detailed instructions for the installation of lighting and fixtures. Regular updates and revisions were made to address any challenges that arose during construction and ensure that the project remained on track.",
+      },
+      {
+        id: 4,
+        title: "Coordination & Supervision",
+        text: "Coordination and supervision were critical to the successful execution of the Luxe Lounge Cafe project. Our team conducted regular site visits to monitor progress and ensure that the construction was proceeding according to the design plans. We worked closely with contractors and suppliers to address any issues that arose and make necessary adjustments to the project. Effective communication with the client was maintained throughout the construction phase to provide updates and ensure that their requirements were being met. Quality control was a key focus, with inspections conducted to ensure that all materials and finishes were installed to the highest standards. The coordination and supervision phase also involved overseeing the installation of furniture and fixtures to ensure that the final space met the client’s vision and expectations.",
+      },
+      {
+        id: 5,
+        title: "Furniture, Fabric & Lighting Selections",
+        text: "The final phase of the Luxe Lounge Cafe project involved selecting and sourcing furniture, fabrics, and lighting to complete the design. We chose high-quality, stylish furniture that complemented the café’s elegant aesthetic and provided comfort for guests. Fabrics were selected for their luxurious feel and durability, with a focus on creating a cohesive look throughout the space. Lighting fixtures were chosen to enhance the ambiance and highlight key design elements. We worked closely with suppliers to ensure that all items were delivered on time and met the design specifications. The final touches, including artwork and decorative elements, were added to complete the café’s sophisticated look and create a welcoming environment for guests.",
+      },
+    ],
+    client: "John Doe",
+    clientImage: user1,
+    finishedDate: "2024-05-15",
   },
   {
     id: 2,
-    name: "Urban Oasis, Main Street",
-    type: "Bookstore",
-    location: "Colombo, Fort",
+    name: "Urban Oasis Restaurant",
+    type: "Restaurant",
+    requirement:
+      "Design a contemporary dining space with a unique blend of urban chic and relaxed ambiance, incorporating high-end materials and sustainable practices.",
+    location: "Sri Jayawardenepura Kotte, Sri Lanka",
     image: img5,
-    images: [img5, img1, img10],
-    description: `Urban Oasis, located on Main Street in Colombo's Fort area, is a bookstore that offers a serene escape from the hustle and bustle of city life. This charming bookstore is designed to be a haven for book lovers, with a warm and inviting atmosphere that encourages relaxation and exploration. 
-
-    The interior of Urban Oasis is thoughtfully designed to create a comfortable and aesthetically pleasing environment. Shelves filled with books are arranged in a way that invites browsing, while cozy reading nooks provide the perfect spot for visitors to settle in with a good book. The store's decor features a blend of contemporary and vintage elements, creating a unique and welcoming ambiance.
-
-    In addition to its extensive collection of books, Urban Oasis offers a selection of stationery, gifts, and literary-themed merchandise. The store also features a small café where customers can enjoy a cup of coffee or tea while perusing their latest read. The café's menu includes a range of beverages and light snacks, making it a perfect spot for a relaxing break.
-
-    Urban Oasis is more than just a bookstore; it is a community space that hosts regular events such as book readings, author signings, and literary discussions. These events provide opportunities for book enthusiasts to engage with authors, fellow readers, and the literary community. 
-
-    The staff at Urban Oasis are passionate about books and are always happy to provide recommendations and assist customers in finding their next great read. The bookstore's commitment to fostering a love of literature and creating a welcoming space for all makes it a beloved destination for both locals and visitors.
-
-    Whether you're searching for the latest bestseller, a classic novel, or a unique gift, Urban Oasis on Main Street offers a delightful and enriching shopping experience. Its combination of a thoughtfully designed space, diverse book selection, and community-focused events makes it a standout destination in Colombo's Fort area.`,
-    clientname: "Jane Smith",
-    finishedDate: "2024-08-20",
+    images: [img5, img7, img8],
+    summary:
+      "The Urban Oasis Restaurant project aimed to create a contemporary dining space that offered a blend of urban chic and relaxed ambiance. Located in Sri Jayawardenepura Kotte, the client desired a restaurant with a striking modern design and a comfortable atmosphere. The project involved integrating high-end materials and innovative design elements while focusing on sustainable practices. Energy-efficient systems and eco-friendly materials were incorporated, achieving a balance of style, comfort, and environmental responsibility. The result was a distinctive dining destination that stood out for its stylish design and functional layout.",
+    description: [
+      {
+        id: 1,
+        title: "Planning & Conceptualizing",
+        text: "The planning and conceptualizing phase for the Urban Oasis Restaurant involved extensive consultations with the client to understand their vision and goals. We conducted a thorough analysis of the location and target market to develop a design that would appeal to diners and reflect the restaurant’s brand identity. Initial design concepts included a modern, sleek aesthetic with a focus on creating a comfortable and inviting atmosphere. We explored various layout options to optimize space and enhance the dining experience, while also considering sustainable design principles. The planning phase included creating detailed sketches and mood boards to present the design concept to the client and make any necessary revisions before proceeding to the design development phase.",
+      },
+      {
+        id: 2,
+        title: "Design & Development",
+        text: "In the design and development phase, we transformed the conceptual ideas into detailed design plans. The layout was carefully crafted to maximize seating capacity while maintaining a comfortable and relaxed atmosphere. We selected high-quality materials and finishes, including sleek surfaces and modern furnishings, to create a contemporary look. The lighting design was carefully considered to enhance the restaurant’s ambiance, with a combination of ambient, task, and accent lighting used throughout the space. Sustainable practices were incorporated, such as energy-efficient lighting and eco-friendly materials, to align with the client’s commitment to environmental responsibility. Detailed design drawings and 3D renderings were created to provide a clear vision of the final space and guide the construction process.",
+      },
+      {
+        id: 3,
+        title: "Construction Drawing & Documentation",
+        text: "The construction drawing and documentation phase involved preparing detailed plans and specifications for the restaurant’s construction. We created comprehensive drawings that included floor plans, elevations, and sections, ensuring that all design elements were accurately represented. Our team coordinated with contractors to ensure that the construction process adhered to the design specifications and quality standards. The documentation also included schedules for materials and finishes, as well as detailed instructions for the installation of lighting and fixtures. Regular updates and revisions were made to address any challenges that arose during construction and ensure that the project remained on track.",
+      },
+      {
+        id: 4,
+        title: "Coordination & Supervision",
+        text: "Coordination and supervision were essential for the successful execution of the Urban Oasis Restaurant project. Our team conducted regular site visits to monitor progress and ensure that the construction was proceeding according to the design plans. We collaborated closely with contractors and suppliers to address any issues that arose and make necessary adjustments to the project. Effective communication with the client was maintained throughout the construction phase to provide updates and ensure that their requirements were being met. Quality control was a primary focus, with inspections conducted to ensure that all materials and finishes were installed to the highest standards. The coordination and supervision phase also involved overseeing the installation of furniture and fixtures to ensure that the final space met the client’s vision and expectations.",
+      },
+      {
+        id: 5,
+        title: "Furniture, Fabric & Lighting Selections",
+        text: "The final phase of the Urban Oasis Restaurant project involved selecting and sourcing furniture, fabrics, and lighting to complete the design. We chose high-quality, stylish furniture that complemented the restaurant’s modern aesthetic and provided comfort for diners. Fabrics were selected for their durability and visual appeal, with a focus on creating a cohesive look throughout the space. Lighting fixtures were carefully chosen to enhance the restaurant’s ambiance and highlight key design features. We worked closely with suppliers to ensure that all items were delivered on time and met the design specifications. The final touches, including artwork and decorative elements, were added to complete the restaurant’s sophisticated look and create a welcoming environment for guests.",
+      },
+    ],
+    client: "Jane Smith",
+    clientImage: user2,
+    finishedDate: "2024-06-20",
   },
   {
     id: 3,
-    name: "The Vintage Loft, Elm Avenue",
-    type: "Restaurant",
-    location: "Colombo, Borella",
+    name: "Green Haven Office",
+    type: "Office",
+    requirement:
+      "Design a modern office space with a focus on creating a productive and environmentally-friendly work environment.",
+    location: "Kandy, Sri Lanka",
     image: img9,
-    images: [img9, img12, img11],
-    description: `The Vintage Loft, located on Elm Avenue in Colombo's Borella district, is a restaurant that offers a unique dining experience with a blend of vintage charm and modern cuisine. The restaurant is known for its elegant decor, attentive service, and exceptional food, making it a popular destination for both casual diners and special occasions.
-
-    Upon entering The Vintage Loft, guests are greeted by a stylish interior that combines classic design elements with contemporary touches. The restaurant's decor features antique furnishings, rich textures, and a sophisticated color palette, creating an atmosphere that is both refined and comfortable. 
-
-    The menu at The Vintage Loft offers a diverse selection of dishes that showcase the best of local and international cuisine. From hearty appetizers and flavorful main courses to delectable desserts, the restaurant's menu is crafted to cater to a variety of tastes and preferences. The ingredients used in the dishes are sourced locally and prepared with care, ensuring that each meal is fresh and delicious.
-
-    The Vintage Loft also features an extensive wine list, with options to complement every dish and enhance the dining experience. The knowledgeable staff are happy to provide recommendations and help guests select the perfect wine to accompany their meal. 
-
-    In addition to its regular menu, The Vintage Loft offers a range of special events and dining experiences. The restaurant hosts themed dinners, wine tastings, and seasonal promotions, providing guests with new and exciting ways to enjoy their dining experience.
-
-    The Vintage Loft's commitment to providing exceptional service and creating a memorable dining experience has earned it a reputation as one of Colombo's premier dining destinations. Whether you're looking for a romantic dinner, a celebratory meal, or a casual lunch, The Vintage Loft offers a dining experience that is sure to impress.`,
-    clientname: "Michael Johnson",
-    finishedDate: "2024-06-15",
+    images: [img9, img1, img8],
+    summary:
+      "The Green Haven Office project was designed to create a modern and efficient workspace with a focus on environmental sustainability. Located in Kandy, Sri Lanka, the office was intended to foster productivity and well-being among employees. The design incorporated eco-friendly materials and energy-efficient systems to minimize environmental impact. The layout was optimized for functionality, with flexible workspaces and collaborative areas to support various work styles. High-quality finishes and modern furnishings were selected to create a professional and comfortable work environment. The result was an office space that balanced modern design with sustainable practices, contributing to both employee satisfaction and environmental responsibility.",
+    description: [
+      {
+        id: 1,
+        title: "Planning & Conceptualizing",
+        text: "The planning and conceptualizing phase for the Green Haven Office involved understanding the client's requirements for a modern, sustainable workspace. We conducted research on the latest trends in office design and sustainability to develop a design concept that would enhance productivity and minimize environmental impact. Initial design concepts included flexible workspaces, collaborative areas, and the use of eco-friendly materials. The planning phase also involved creating detailed design sketches and mood boards to visualize the concept and ensure that it met the client's goals. Feedback from the client was incorporated into the design to refine the concept and move forward with the design development phase.",
+      },
+      {
+        id: 2,
+        title: "Design & Development",
+        text: "In the design and development phase, we translated the conceptual ideas into detailed design plans. The office layout was designed to maximize functionality and support various work styles. We selected high-quality, sustainable materials and finishes, including energy-efficient systems and eco-friendly furnishings. The lighting design focused on creating a well-lit and comfortable environment, with a mix of natural and artificial light sources. Detailed design drawings and 3D renderings were created to provide a clear vision of the final space and guide the construction process. Sustainable practices were integrated throughout the design to ensure that the office was both modern and environmentally responsible.",
+      },
+      {
+        id: 3,
+        title: "Construction Drawing & Documentation",
+        text: "The construction drawing and documentation phase involved preparing comprehensive plans and specifications for the office’s construction. Our team created detailed drawings that included floor plans, elevations, and sections, ensuring that all design elements were accurately represented. We coordinated with contractors to ensure that the construction process adhered to the design specifications and quality standards. The documentation also included schedules for materials and finishes, as well as detailed instructions for the installation of lighting and fixtures. Regular updates and revisions were made to address any challenges that arose during construction and ensure that the project remained on track.",
+      },
+      {
+        id: 4,
+        title: "Coordination & Supervision",
+        text: "Coordination and supervision were key to the successful execution of the Green Haven Office project. Our team conducted regular site visits to monitor progress and ensure that construction was proceeding according to the design plans. We worked closely with contractors and suppliers to address any issues that arose and make necessary adjustments to the project. Effective communication with the client was maintained throughout the construction phase to provide updates and ensure that their requirements were being met. Quality control was a primary focus, with inspections conducted to ensure that all materials and finishes were installed to the highest standards. The coordination and supervision phase also involved overseeing the installation of furniture and fixtures to ensure that the final space met the client’s vision and expectations.",
+      },
+      {
+        id: 5,
+        title: "Furniture, Fabric & Lighting Selections",
+        text: "The final phase of the Green Haven Office project involved selecting and sourcing furniture, fabrics, and lighting to complete the design. We chose modern, sustainable furniture that complemented the office’s design and provided comfort for employees. Fabrics were selected for their durability and eco-friendly properties, with a focus on creating a cohesive look throughout the space. Lighting fixtures were carefully chosen to enhance the office’s ambiance and ensure adequate illumination for various work tasks. We worked closely with suppliers to ensure timely delivery and adherence to design specifications. The final touches, including artwork and decorative elements, were added to complete the office’s modern and sustainable look.",
+      },
+    ],
+    client: "Michael Johnson",
+    clientImage: user3,
+    finishedDate: "2024-07-30",
   },
   {
     id: 4,
-    name: "The Art House, River Road",
-    type: "Gallery",
-    location: "Colombo, Colombo 07",
-    image: img8,
-    images: [img8, img1, img2],
-    description: `The Art House, situated on River Road in Colombo 07, is a contemporary art gallery that showcases a diverse range of artistic expressions from both local and international artists. The gallery is dedicated to promoting the arts and providing a platform for artists to present their work to the public.
-
-    The interior of The Art House is designed to create an open and engaging space for art exhibitions and events. The gallery features clean lines, neutral colors, and flexible display areas that allow for the presentation of various types of artwork, from paintings and sculptures to installations and multimedia pieces. 
-
-    The gallery hosts regular exhibitions that highlight different artistic styles and themes, providing visitors with an opportunity to experience new and thought-provoking works of art. In addition to exhibitions, The Art House also offers art workshops, lectures, and special events that encourage community engagement and foster a deeper appreciation for the arts.
-
-    The Art House is known for its commitment to supporting emerging artists and providing a space where they can showcase their work and connect with art enthusiasts. The gallery's knowledgeable staff are always available to provide information about the artworks on display and assist visitors in learning more about the artists and their creative processes.
-
-    Whether you are an art aficionado or simply interested in exploring new artistic expressions, The Art House offers a dynamic and enriching experience. Its diverse exhibitions, engaging events, and supportive environment make it a valuable cultural resource in Colombo.`,
-    clientname: "Emily Davis",
-    finishedDate: "2024-09-10",
+    name: "Sunset Beach Resort",
+    type: "Resort",
+    requirement:
+      "Create a luxurious beach resort with an emphasis on relaxation, comfort, and blending with the natural surroundings.",
+    location: "Galle, Sri Lanka",
+    image: img1,
+    images: [img1, img3, img4],
+    summary:
+      "The Sunset Beach Resort project was designed to offer a luxurious and relaxing retreat with a strong emphasis on comfort and integration with the natural surroundings. Located in Galle, Sri Lanka, the resort aimed to provide an exceptional guest experience through high-quality design and amenities. The project focused on creating an inviting atmosphere with spacious rooms, elegant interiors, and a seamless connection to the beach environment. Sustainable practices were incorporated, including energy-efficient systems and eco-friendly materials, to minimize the environmental impact while enhancing the resort’s luxury appeal. The result was a resort that successfully blended opulence with natural beauty, providing guests with a memorable and rejuvenating experience.",
+    description: [
+      {
+        id: 1,
+        title: "Planning & Conceptualizing",
+        text: "The planning and conceptualizing phase for the Sunset Beach Resort involved working closely with the client to define their vision for a luxurious beach retreat. We conducted a site analysis to understand the natural surroundings and incorporate them into the design. The initial concepts focused on creating a seamless integration between the resort’s facilities and the beach environment, with an emphasis on relaxation and comfort. We developed mood boards and design sketches to visualize the concept and ensure that it aligned with the client’s vision. The planning phase also included developing a detailed project plan to guide the design and construction process.",
+      },
+      {
+        id: 2,
+        title: "Design & Development",
+        text: "In the design and development phase, we translated the conceptual ideas into detailed design plans for the resort. The layout was designed to maximize the use of natural light and create a strong connection with the outdoor environment. We selected high-quality, sustainable materials and finishes that complemented the beach setting and enhanced the overall luxury experience. The interior design focused on creating elegant and comfortable spaces, with a mix of modern and traditional elements. Detailed design drawings and 3D renderings were created to provide a clear vision of the final resort and guide the construction process. Sustainable practices were integrated into the design to minimize the resort’s environmental impact.",
+      },
+      {
+        id: 3,
+        title: "Construction Drawing & Documentation",
+        text: "The construction drawing and documentation phase involved preparing comprehensive plans and specifications for the resort’s construction. We created detailed drawings that included floor plans, elevations, and sections, ensuring that all design elements were accurately represented. Our team coordinated with contractors to ensure that the construction process adhered to the design specifications and quality standards. The documentation also included schedules for materials and finishes, as well as detailed instructions for the installation of lighting and fixtures. Regular updates and revisions were made to address any challenges that arose during construction and ensure that the project remained on track.",
+      },
+      {
+        id: 4,
+        title: "Coordination & Supervision",
+        text: "Coordination and supervision were critical to the successful completion of the Sunset Beach Resort project. Our team conducted regular site visits to monitor progress and ensure that construction was proceeding according to the design plans. We worked closely with contractors and suppliers to address any issues and make necessary adjustments. Effective communication with the client was maintained throughout the construction phase to provide updates and ensure that their requirements were being met. Quality control was a key focus, with inspections conducted to ensure that all materials and finishes were installed to the highest standards. The coordination and supervision phase also involved overseeing the installation of furnishings and fixtures to ensure that the final resort met the client’s expectations.",
+      },
+      {
+        id: 5,
+        title: "Furniture, Fabric & Lighting Selections",
+        text: "The final phase of the Sunset Beach Resort project involved selecting and sourcing furniture, fabrics, and lighting to complete the design. We chose luxurious and comfortable furniture that complemented the resort’s elegant aesthetic and provided a relaxing environment for guests. Fabrics were selected for their quality and suitability for the beach setting, with a focus on creating a cohesive and stylish look. Lighting fixtures were chosen to enhance the resort’s ambiance and highlight key design elements. We worked closely with suppliers to ensure timely delivery and adherence to design specifications. The final touches, including artwork and decorative elements, were added to complete the resort’s luxurious and inviting atmosphere.",
+      },
+    ],
+    client: "Emily Davis",
+    clientImage: user4,
+    finishedDate: "2024-08-10",
   },
+
   {
     id: 5,
-    name: "The Culinary Haven, Oak Lane",
-    type: "Bakery",
-    location: "Colombo, Mount Lavinia",
-    image: img3,
-    images: [img3, img10, img11],
-    description: `The Culinary Haven, located on Oak Lane in Mount Lavinia, is a bakery that delights customers with its exquisite range of baked goods and confections. Known for its warm and inviting atmosphere, The Culinary Haven is a popular spot for anyone with a sweet tooth or a love for freshly baked treats.
-
-    The bakery's interior is designed to be both charming and functional, with rustic decor elements that create a cozy and welcoming environment. The open layout allows customers to view the baking process and enjoy the aroma of freshly baked bread, pastries, and cakes. 
-
-    The menu at The Culinary Haven features a wide variety of baked goods, including artisanal bread, flaky croissants, decadent cakes, and scrumptious cookies. Each item is made from high-quality ingredients and crafted with attention to detail, ensuring that every bite is a delightful experience. The bakery also offers custom cakes and special-order pastries for events and celebrations.
-
-    In addition to its baked goods, The Culinary Haven has a small café area where customers can enjoy a cup of coffee or tea alongside their treats. The café's menu includes a selection of beverages and light snacks, making it a perfect spot for a leisurely afternoon break or a catch-up with friends.
-
-    The Culinary Haven is committed to providing exceptional customer service and creating a friendly and welcoming atmosphere. The staff are always happy to assist customers with their orders and offer recommendations based on individual preferences.
-
-    Whether you're stopping by for a quick treat or planning a special celebration, The Culinary Haven offers a delightful selection of baked goods and a warm, inviting environment that makes every visit a pleasure.`,
-    clientname: "Laura Wilson",
-    finishedDate: "2024-08-30",
+    name: "Urban Chic Café",
+    type: "Café",
+    requirement:
+      "Design a trendy café with a focus on creating a cozy and inviting atmosphere for urban customers.",
+    location: "Colombo, Sri Lanka",
+    image: img9,
+    images: [img9, img7, img8],
+    summary:
+      "The Urban Chic Café project aimed to create a trendy and cozy space tailored to the tastes of urban customers. Located in Colombo, Sri Lanka, this café was designed to be a stylish retreat with a warm and inviting ambiance. The design incorporated modern furnishings, creative lighting, and unique decor elements to establish a vibrant atmosphere. We focused on blending comfort with contemporary aesthetics, ensuring that the café not only served great coffee but also provided a memorable experience for its patrons. The result was a chic café that became a popular spot for socializing and relaxation.",
+    description: [
+      {
+        id: 1,
+        title: "Planning & Conceptualizing",
+        text: "The planning and conceptualizing phase for the Urban Chic Café involved understanding the client’s vision for a trendy and inviting café space. We conducted market research to identify the preferences of urban customers and developed a design concept that would cater to their tastes. Initial ideas included modern furnishings, creative lighting solutions, and a unique decor scheme that would set the café apart. We created mood boards and sketches to visualize the design and incorporated client feedback to refine the concept. The planning phase also involved outlining the project scope and timeline to guide the design and construction process.",
+      },
+      {
+        id: 2,
+        title: "Design & Development",
+        text: "In the design and development phase, we transformed the initial concept into detailed design plans for the café. The layout was optimized to create a comfortable and inviting environment, with a focus on maximizing space and enhancing customer experience. We selected modern, stylish furnishings and incorporated creative lighting designs to add a touch of sophistication. The interior design included a mix of textures and colors to create a visually appealing and cohesive look. Detailed drawings and 3D renderings were produced to provide a clear vision of the final space and guide the construction process. The design aimed to balance functionality with aesthetic appeal, ensuring that the café met the client’s vision and requirements.",
+      },
+      {
+        id: 3,
+        title: "Construction Drawing & Documentation",
+        text: "The construction drawing and documentation phase involved preparing comprehensive plans and specifications for the café’s construction. Our team created detailed drawings, including floor plans, elevations, and sections, to accurately represent the design. We coordinated with contractors to ensure that the construction process adhered to the design specifications and quality standards. The documentation included schedules for materials and finishes, as well as instructions for installing lighting and fixtures. Regular updates were provided to address any issues that arose during construction and keep the project on track. The phase also involved ensuring that all design elements were accurately implemented in the final build.",
+      },
+      {
+        id: 4,
+        title: "Coordination & Supervision",
+        text: "Coordination and supervision were crucial for the successful completion of the Urban Chic Café project. Our team conducted regular site visits to monitor construction progress and ensure that the work was being carried out according to the design plans. We collaborated closely with contractors and suppliers to address any challenges and make necessary adjustments. Effective communication with the client was maintained to provide updates and ensure that their requirements were being met. Quality control was a key focus, with inspections conducted to ensure that all materials and finishes were installed to the highest standards. The coordination and supervision phase also involved overseeing the installation of furnishings and decor to ensure that the final space aligned with the client’s vision.",
+      },
+      {
+        id: 5,
+        title: "Furniture, Fabric & Lighting Selections",
+        text: "The final phase of the Urban Chic Café project involved selecting and sourcing furniture, fabrics, and lighting to complete the design. We chose modern, stylish furniture that complemented the café’s contemporary aesthetic and provided comfort for customers. Fabrics were selected for their quality and visual appeal, with a focus on creating a cohesive look throughout the space. Lighting fixtures were chosen to enhance the café’s ambiance and highlight key design elements. We coordinated with suppliers to ensure timely delivery and adherence to design specifications. The final touches, including artwork and decorative elements, were added to create a vibrant and inviting atmosphere that resonated with urban customers.",
+      },
+    ],
+    client: "Sophia Williams",
+    clientImage: user1,
+    finishedDate: "2024-08-20",
   },
   {
     id: 6,
-    name: "The Modern Workspace, Tech Park",
-    type: "Co-Working Space",
-    location: "Colombo, Wellawatte",
-    image: img7,
-    images: [img7, img8, img10],
-    description: `The Modern Workspace, located in Tech Park, Wellawatte, is a state-of-the-art co-working space designed to cater to the needs of modern professionals and entrepreneurs. The workspace offers a dynamic and flexible environment that fosters creativity, collaboration, and productivity.
-
-    The interior of The Modern Workspace is designed with a contemporary aesthetic, featuring sleek furnishings, open-plan layouts, and cutting-edge technology. The space is equipped with high-speed internet, ergonomic workstations, and comfortable meeting rooms that provide everything needed for a productive workday.
-
-    Members of The Modern Workspace have access to a range of amenities, including private offices, shared workspaces, and relaxation areas. The workspace also offers on-site support services, such as administrative assistance, IT support, and event planning, to help members focus on their work and achieve their goals.
-
-    The Modern Workspace hosts regular networking events, workshops, and seminars that provide opportunities for members to connect with other professionals, learn new skills, and stay informed about industry trends. These events contribute to a vibrant and collaborative community where members can share ideas and collaborate on projects.
-
-    In addition to its professional amenities, The Modern Workspace features a café that serves a selection of beverages and snacks, providing a convenient option for breaks and informal meetings. The café's relaxed atmosphere allows members to recharge and socialize in a comfortable setting.
-
-    The Modern Workspace is dedicated to creating an environment that supports the success of its members. With its innovative design, comprehensive amenities, and community-focused approach, it provides a premier co-working experience in Colombo's Wellawatte area.`,
-    clientname: "James Anderson",
-    finishedDate: "2024-07-25",
+    name: "Classic Elegance Library",
+    type: "Library",
+    requirement:
+      "Create a sophisticated and functional library with a focus on classical design elements and modern amenities.",
+    location: "Galle, Sri Lanka",
+    image: img8,
+    images: [img8, img5, img6],
+    summary:
+      "The Classic Elegance Library project was designed to combine classical design elements with modern functionality. Located in Galle, Sri Lanka, this library aimed to create a sophisticated and welcoming environment for readers and researchers. The design incorporated traditional architectural features, such as ornate woodwork and elegant fixtures, while also integrating modern amenities to enhance user experience. We focused on creating comfortable reading areas, efficient book storage solutions, and a quiet, contemplative atmosphere. The result was a library that successfully merged classic elegance with contemporary needs, providing a refined space for intellectual engagement and relaxation.",
+    description: [
+      {
+        id: 1,
+        title: "Planning & Conceptualizing",
+        text: "The planning and conceptualizing phase for the Classic Elegance Library involved understanding the client’s vision for a sophisticated and functional library space. We researched classical design elements and modern library trends to develop a concept that would meet the client’s requirements. Initial ideas included incorporating traditional architectural features, such as detailed woodwork and elegant fixtures, while also considering modern amenities for enhanced functionality. We created design sketches and mood boards to visualize the concept and ensure that it aligned with the client’s vision. The planning phase also involved developing a detailed project plan and timeline to guide the design and construction process.",
+      },
+      {
+        id: 2,
+        title: "Design & Development",
+        text: "In the design and development phase, we transformed the conceptual ideas into detailed design plans for the library. The layout was designed to maximize functionality while incorporating classical design elements. We selected high-quality materials and finishes, including ornate woodwork and elegant lighting fixtures, to create a refined atmosphere. The interior design focused on creating comfortable reading areas, efficient book storage solutions, and a quiet environment conducive to study and reflection. Detailed design drawings and 3D renderings were produced to provide a clear vision of the final space and guide the construction process. The design aimed to balance traditional elegance with modern functionality.",
+      },
+      {
+        id: 3,
+        title: "Construction Drawing & Documentation",
+        text: "The construction drawing and documentation phase involved preparing comprehensive plans and specifications for the library’s construction. Our team created detailed drawings that included floor plans, elevations, and sections to accurately represent the design. We coordinated with contractors to ensure that the construction process adhered to the design specifications and quality standards. The documentation also included schedules for materials and finishes, as well as instructions for the installation of lighting and fixtures. Regular updates and revisions were made to address any challenges that arose during construction and ensure that the project remained on track.",
+      },
+      {
+        id: 4,
+        title: "Coordination & Supervision",
+        text: "Coordination and supervision were essential for the successful execution of the Classic Elegance Library project. Our team conducted regular site visits to monitor construction progress and ensure that the work was proceeding according to the design plans. We worked closely with contractors and suppliers to address any issues and make necessary adjustments. Effective communication with the client was maintained throughout the construction phase to provide updates and ensure that their requirements were being met. Quality control was a key focus, with inspections conducted to ensure that all materials and finishes were installed to the highest standards. The coordination and supervision phase also involved overseeing the installation of furniture and fixtures to ensure that the final library met the client’s expectations.",
+      },
+      {
+        id: 5,
+        title: "Furniture, Fabric & Lighting Selections",
+        text: "The final phase of the Classic Elegance Library project involved selecting and sourcing furniture, fabrics, and lighting to complete the design. We chose elegant, classic furniture that complemented the library’s refined aesthetic and provided comfort for users. Fabrics were selected for their quality and visual appeal, with a focus on creating a cohesive look throughout the space. Lighting fixtures were chosen to enhance the library’s ambiance and highlight key design elements. We worked closely with suppliers to ensure timely delivery and adherence to design specifications. The final touches, including artwork and decorative elements, were added to create a sophisticated and inviting environment for reading and study.",
+      },
+    ],
+    client: "Oliver Brown",
+    clientImage: user2,
+    finishedDate: "2024-08-30",
   },
   {
     id: 7,
-    name: "The Urban Retreat, Park Avenue",
-    type: "Spa",
-    location: "Colombo, Colombo 08",
-    image: img4,
-    images: [img4, img5, img1],
-    description: `The Urban Retreat, located on Park Avenue in Colombo 08, is a luxurious spa that offers a range of relaxing and rejuvenating treatments. The spa is designed to provide a tranquil escape from the stresses of everyday life, offering a serene environment where guests can unwind and indulge in self-care.
-
-    The interior of The Urban Retreat is elegantly designed, with a focus on creating a calming and soothing atmosphere. The spa features soft lighting, natural materials, and plush furnishings that contribute to a peaceful and luxurious experience. Each treatment room is designed to offer maximum comfort and privacy, ensuring that guests can fully relax and enjoy their spa experience.
-
-    The Urban Retreat offers a diverse menu of treatments, including massages, facials, body scrubs, and wellness therapies. Each treatment is designed to address specific needs and preferences, using high-quality products and techniques to deliver effective and enjoyable results. The spa also offers personalized treatment packages and consultations to help guests select the best options for their individual needs.
-
-    In addition to its treatments, The Urban Retreat features a range of amenities designed to enhance the overall spa experience. These include a sauna, steam room, and relaxation lounge where guests can unwind before or after their treatments. The spa also offers wellness programs and workshops that focus on holistic health and well-being.
-
-    The staff at The Urban Retreat are highly trained and dedicated to providing exceptional service. They are knowledgeable about the treatments and products offered and are committed to ensuring that each guest receives a personalized and attentive experience.
-
-    Whether you are seeking a relaxing massage, a rejuvenating facial, or a complete wellness retreat, The Urban Retreat offers a luxurious and comprehensive spa experience that promotes relaxation and well-being.`,
-    clientname: "Samantha Green",
-    finishedDate: "2024-10-05",
+    name: "Modern Living Room",
+    type: "Residential",
+    requirement:
+      "Design a contemporary living room that combines comfort with sleek modern aesthetics.",
+    location: "Negombo, Sri Lanka",
+    image: img7,
+    images: [img8, img9, img7],
+    summary:
+      "The Modern Living Room project aimed to create a stylish and comfortable space that reflects contemporary design trends. Located in Negombo, Sri Lanka, this residential project focused on blending modern aesthetics with practical functionality. The design incorporated sleek furniture, minimalistic decor, and a neutral color palette to create a clean and sophisticated look. We emphasized the importance of comfort and usability, ensuring that the living room not only looked great but also served as a cozy and inviting space for relaxation. The result was a modern living room that successfully combined elegance with everyday practicality.",
+    description: [
+      {
+        id: 1,
+        title: "Planning & Conceptualizing",
+        text: "The planning and conceptualizing phase for the Modern Living Room project involved understanding the client’s vision for a contemporary and comfortable living space. We explored current design trends and gathered inspiration to develop a concept that would meet the client’s preferences. Initial ideas included sleek, modern furnishings, a neutral color palette, and minimalistic decor elements. We created design sketches and mood boards to visualize the concept and incorporated client feedback to refine the design. The planning phase also involved outlining the project scope and timeline to guide the design and implementation process, ensuring that the final space would align with the client’s expectations.",
+      },
+      {
+        id: 2,
+        title: "Design & Development",
+        text: "In the design and development phase, we translated the conceptual ideas into detailed design plans for the living room. The layout was designed to maximize space and create a clean, modern look. We selected contemporary furniture and decor items that complemented the design concept and provided comfort for everyday use. The color palette was chosen to enhance the room’s modern aesthetic while maintaining a cozy atmosphere. Detailed design drawings and 3D renderings were produced to provide a clear vision of the final space and guide the implementation process. The design aimed to balance style with functionality, ensuring that the living room met the client’s needs and preferences.",
+      },
+      {
+        id: 3,
+        title: "Construction Drawing & Documentation",
+        text: "The construction drawing and documentation phase involved preparing detailed plans and specifications for the living room’s renovation. Our team created comprehensive drawings, including floor plans, elevations, and sections, to accurately represent the design. We coordinated with contractors to ensure that the construction process adhered to the design specifications and quality standards. The documentation also included schedules for materials and finishes, as well as instructions for the installation of furniture and decor items. Regular updates and revisions were made to address any challenges that arose during construction and ensure that the project stayed on track.",
+      },
+      {
+        id: 4,
+        title: "Coordination & Supervision",
+        text: "Coordination and supervision were key to the successful completion of the Modern Living Room project. Our team conducted regular site visits to monitor progress and ensure that the work was being carried out according to the design plans. We collaborated closely with contractors and suppliers to address any issues and make necessary adjustments. Effective communication with the client was maintained throughout the construction phase to provide updates and ensure that their requirements were being met. Quality control was a focus, with inspections conducted to ensure that all materials and finishes were installed to the highest standards. The coordination and supervision phase also involved overseeing the installation of furniture and decor items to ensure that the final space met the client’s vision.",
+      },
+      {
+        id: 5,
+        title: "Furniture, Fabric & Lighting Selections",
+        text: "The final phase of the Modern Living Room project involved selecting and sourcing furniture, fabrics, and lighting to complete the design. We chose modern, stylish furniture that complemented the room’s contemporary aesthetic and provided comfort for everyday use. Fabrics were selected for their quality and visual appeal, with a focus on creating a cohesive look throughout the space. Lighting fixtures were chosen to enhance the room’s ambiance and highlight key design elements. We worked with suppliers to ensure timely delivery and adherence to design specifications. The final touches, including decorative elements and artwork, were added to create a stylish and inviting living room that met the client’s expectations.",
+      },
+    ],
+    client: "James Carter",
+    clientImage: user3,
+    finishedDate: "2024-09-05",
   },
   {
     id: 8,
-    name: "The Luxe Boutique, High Street",
-    type: "Retail Store",
-    location: "Colombo, Bambalapitiya",
-    image: img1,
-    images: [img1, img11, img11],
-    description: `The Luxe Boutique, located on High Street in Bambalapitiya, is a high-end retail store that offers a curated selection of luxury fashion and accessories. The boutique is known for its elegant and sophisticated atmosphere, providing a premium shopping experience for discerning customers.
-
-    The interior of The Luxe Boutique is designed with a focus on luxury and refinement. The store features high-quality finishes, stylish displays, and a carefully curated selection of merchandise that reflects the latest fashion trends and timeless classics. The boutique's layout is designed to allow for easy browsing and a comfortable shopping experience.
-
-    The Luxe Boutique offers a range of products, including designer clothing, handbags, shoes, and jewelry. Each item is selected for its quality and style, ensuring that customers have access to the best in luxury fashion. The boutique also provides personalized shopping services, including custom fittings and style consultations, to help customers find the perfect items for their wardrobe.
-
-    In addition to its merchandise, The Luxe Boutique hosts exclusive events and promotions that provide customers with unique opportunities to experience the latest fashion collections and trends. These events are designed to create a memorable and engaging shopping experience for customers.
-
-    The staff at The Luxe Boutique are highly knowledgeable about fashion and dedicated to providing exceptional customer service. They are available to assist customers with their selections, offer styling advice, and ensure that each visit to the boutique is enjoyable and satisfying.
-
-    Whether you are looking for a statement piece, a special gift, or simply want to explore the latest fashion trends, The Luxe Boutique offers a luxurious and sophisticated shopping experience in Colombo's Bambalapitiya area.`,
-    clientname: "Olivia Martinez",
-    finishedDate: "2024-08-15",
+    name: "Serene Bedroom Retreat",
+    type: "Residential",
+    requirement:
+      "Design a tranquil and elegant bedroom retreat with a focus on comfort and relaxation.",
+    location: "Kandy, Sri Lanka",
+    image: img11,
+    images: [img11, img3, img4],
+    summary:
+      "The Serene Bedroom Retreat project aimed to create a tranquil and elegant space that emphasizes comfort and relaxation. Located in Kandy, Sri Lanka, this residential project focused on designing a bedroom that would serve as a peaceful retreat from daily life. The design incorporated soft, soothing colors, luxurious fabrics, and comfortable furnishings to create a serene atmosphere. We emphasized the importance of creating a restful environment where the client could unwind and rejuvenate. The result was a beautifully designed bedroom that provided a perfect balance of elegance and comfort, offering a peaceful sanctuary for relaxation.",
+    description: [
+      {
+        id: 1,
+        title: "Planning & Conceptualizing",
+        text: "The planning and conceptualizing phase for the Serene Bedroom Retreat involved understanding the client’s vision for a tranquil and elegant bedroom space. We explored various design elements that would contribute to a calming atmosphere, such as soft colors, luxurious fabrics, and comfortable furnishings. Initial ideas included creating a layout that maximized space and incorporated elements like a cozy reading nook and a serene color palette. We developed mood boards and design sketches to visualize the concept and ensured that it aligned with the client’s preferences. The planning phase also involved developing a project plan and timeline to guide the design and implementation process.",
+      },
+      {
+        id: 2,
+        title: "Design & Development",
+        text: "In the design and development phase, we turned the conceptual ideas into detailed design plans for the bedroom. The layout was designed to create a serene and functional space, with a focus on comfort and relaxation. We selected soft, soothing colors, luxurious fabrics, and stylish furnishings to enhance the room’s elegance and tranquility. Detailed design drawings and 3D renderings were produced to provide a clear vision of the final space and guide the implementation process. The design aimed to create a restful environment where the client could unwind and rejuvenate, while also ensuring that the room met their aesthetic and functional needs.",
+      },
+      {
+        id: 3,
+        title: "Construction Drawing & Documentation",
+        text: "The construction drawing and documentation phase involved preparing detailed plans and specifications for the bedroom’s renovation. Our team created comprehensive drawings, including floor plans, elevations, and sections, to accurately represent the design. We coordinated with contractors to ensure that the construction process adhered to the design specifications and quality standards. The documentation included schedules for materials and finishes, as well as instructions for the installation of furnishings and decor items. Regular updates and revisions were made to address any challenges that arose during construction and ensure that the project remained on track.",
+      },
+      {
+        id: 4,
+        title: "Coordination & Supervision",
+        text: "Coordination and supervision were crucial for the successful completion of the Serene Bedroom Retreat project. Our team conducted regular site visits to monitor construction progress and ensure that the work was being carried out according to the design plans. We worked closely with contractors and suppliers to address any issues and make necessary adjustments. Effective communication with the client was maintained throughout the construction phase to provide updates and ensure that their requirements were being met. Quality control was a focus, with inspections conducted to ensure that all materials and finishes were installed to the highest standards. The coordination and supervision phase also involved overseeing the installation of furnishings and decor items to ensure that the final space aligned with the client’s vision.",
+      },
+      {
+        id: 5,
+        title: "Furniture, Fabric & Lighting Selections",
+        text: "The final phase of the Serene Bedroom Retreat project involved selecting and sourcing furniture, fabrics, and lighting to complete the design. We chose elegant, comfortable furniture that complemented the bedroom’s tranquil aesthetic and provided a restful environment. Fabrics were selected for their quality and soothing textures, with a focus on creating a cohesive and luxurious look. Lighting fixtures were chosen to enhance the room’s ambiance and provide soft, warm illumination. We coordinated with suppliers to ensure timely delivery and adherence to design specifications. The final touches, including decorative elements and artwork, were added to create a serene and inviting bedroom that met the client’s expectations.",
+      },
+    ],
+    client: "Isabella Martinez",
+    clientImage: user4,
+    finishedDate: "2024-09-10",
   },
   {
     id: 9,
-    name: "The Serenity Garden, Willow Lane",
-    type: "Event Venue",
-    location: "Colombo, Colombo 03",
-    image: img2,
-    images: [img2, img10, img12],
-    description: `The Serenity Garden, located on Willow Lane in Colombo 03, is a beautiful event venue that provides a picturesque setting for weddings, parties, and corporate events. The venue is known for its stunning garden space and elegant event facilities, making it a popular choice for special occasions.
-
-    The Serenity Garden features a lush and well-maintained outdoor space that includes manicured lawns, blooming flowers, and serene water features. The garden provides a charming and romantic backdrop for events, with plenty of space for guests to enjoy the natural surroundings.
-
-    In addition to its garden space, The Serenity Garden offers a range of indoor facilities, including a spacious ballroom and modern event rooms. The indoor areas are designed to complement the outdoor garden and provide a stylish and comfortable setting for events. The venue is equipped with state-of-the-art audio-visual equipment, catering services, and event planning support to ensure a seamless and enjoyable experience.
-
-    The Serenity Garden is committed to providing exceptional service and personalized attention to every event. The dedicated team works closely with clients to understand their vision and preferences, offering guidance and support throughout the planning process.
-
-    Whether you are hosting a wedding, a corporate function, or a private party, The Serenity Garden offers a versatile and elegant venue that can be customized to meet your needs. Its combination of beautiful outdoor spaces, sophisticated indoor facilities, and attentive service makes it an ideal choice for any special occasion.`,
-    clientname: "Benjamin Lee",
-    finishedDate: "2024-09-25",
+    name: "Elegant Dining Room",
+    type: "Residential",
+    requirement:
+      "Design an elegant dining room that combines sophistication with functionality for entertaining guests.",
+    location: "Jaffna, Sri Lanka",
+    image: img6,
+    images: [img6, img7, img8],
+    summary:
+      "The Elegant Dining Room project aimed to design a sophisticated dining space that seamlessly blends elegance with practicality. Located in Jaffna, Sri Lanka, this residential project focused on creating a dining room that would serve as both a functional space for daily meals and an elegant setting for entertaining guests. The design featured a refined color palette, luxurious materials, and stylish furniture to create a space that exudes sophistication. We prioritized functionality with thoughtful layout planning to ensure that the room met the needs of both everyday dining and special occasions. The result was an elegant dining room that offered a perfect balance of style and practicality.",
+    description: [
+      {
+        id: 1,
+        title: "Planning & Conceptualizing",
+        text: "The planning and conceptualizing phase for the Elegant Dining Room project involved understanding the client’s vision for a sophisticated and functional dining space. We explored various design elements that would contribute to both elegance and practicality, such as refined color palettes, luxurious materials, and stylish furniture. Initial ideas included creating a layout that accommodated both daily meals and entertaining guests, while incorporating features like a central dining table and elegant lighting fixtures. Design sketches and mood boards were developed to visualize the concept and align it with the client’s preferences. The planning phase also included establishing a project timeline and scope to guide the design and implementation process.",
+      },
+      {
+        id: 2,
+        title: "Design & Development",
+        text: "In the design and development phase, we translated the conceptual ideas into detailed design plans for the dining room. The layout was designed to balance elegance with functionality, incorporating a sophisticated color palette and luxurious materials. We selected stylish furniture and decor items that complemented the design concept and ensured practical use for both everyday dining and special occasions. Detailed design drawings and 3D renderings were created to provide a clear vision of the final space and guide the implementation process. The design aimed to create an elegant and functional dining room that met the client’s needs for both daily use and entertaining guests.",
+      },
+      {
+        id: 3,
+        title: "Construction Drawing & Documentation",
+        text: "The construction drawing and documentation phase involved preparing comprehensive plans and specifications for the dining room’s renovation. Our team created detailed drawings, including floor plans, elevations, and sections, to accurately represent the design. We coordinated with contractors to ensure that the construction adhered to the design specifications and quality standards. The documentation also included schedules for materials and finishes, as well as instructions for the installation of furniture and decor items. Regular updates and revisions were made to address any challenges during construction and ensure that the project stayed on track.",
+      },
+      {
+        id: 4,
+        title: "Coordination & Supervision",
+        text: "Coordination and supervision were essential to the successful completion of the Elegant Dining Room project. Our team conducted regular site visits to monitor progress and ensure that the work was being carried out according to the design plans. We worked closely with contractors and suppliers to resolve any issues and make necessary adjustments. Effective communication with the client was maintained throughout the construction phase to provide updates and ensure their requirements were being met. Quality control was a focus, with inspections conducted to ensure that all materials and finishes were installed to the highest standards. The coordination and supervision phase also involved overseeing the installation of furniture and decor items to ensure that the final space met the client’s vision.",
+      },
+      {
+        id: 5,
+        title: "Furniture, Fabric & Lighting Selections",
+        text: "The final phase of the Elegant Dining Room project involved selecting and sourcing furniture, fabrics, and lighting to complete the design. We chose elegant furniture and luxurious fabrics that complemented the room’s sophisticated aesthetic and provided practical functionality. Lighting fixtures were selected to enhance the room’s ambiance and highlight key design elements. We coordinated with suppliers to ensure timely delivery and adherence to design specifications. The final touches, including decorative elements and artwork, were added to create an elegant dining room that met the client’s expectations for both everyday use and special occasions.",
+      },
+    ],
+    client: "Robert Green",
+    clientImage: user3,
+    finishedDate: "2024-09-15",
   },
   {
     id: 10,
-    name: "The Creative Hub, Innovation Center",
-    type: "Art Studio",
-    location: "Colombo, Colombo 09",
-    image: img12,
-    images: [img12, img11, img10],
-    description: `The Creative Hub, located at the Innovation Center in Colombo 09, is an art studio designed to inspire creativity and support artistic endeavors. The studio provides a collaborative space where artists of all levels can work, create, and connect with others in the creative community.
-
-    The interior of The Creative Hub is designed to foster an inspiring and productive environment. The studio features open workspaces, private studios, and flexible areas that can be adapted for various artistic activities. The design includes ample natural light, high-quality materials, and modern equipment to support a wide range of artistic practices.
-
-    The Creative Hub offers a variety of resources and amenities for artists, including art supplies, workshops, and exhibition opportunities. The studio hosts regular classes and events that provide artists with the chance to learn new techniques, showcase their work, and collaborate with other creatives.
-
-    In addition to its facilities, The Creative Hub is dedicated to building a vibrant and supportive artistic community. The studio organizes networking events, artist talks, and community projects that encourage collaboration and engagement among artists.
-
-    Whether you are an emerging artist looking for a creative space or an experienced professional seeking a collaborative environment, The Creative Hub offers a dynamic and supportive setting that nurtures artistic growth and creativity. Its commitment to providing resources, opportunities, and a welcoming community makes it a valuable asset to Colombo's creative scene.`,
-    clientname: "Sophia Robinson",
-    finishedDate: "2024-11-01",
+    name: "Urban Oasis Bathroom",
+    type: "Residential",
+    requirement:
+      "Design a modern and relaxing bathroom space with high-end finishes and a spa-like atmosphere.",
+    location: "Colombo, Sri Lanka",
+    image: img2,
+    images: [img2, img12, img11],
+    summary:
+      "The Urban Oasis Bathroom project focused on creating a modern and relaxing bathroom space with high-end finishes and a spa-like atmosphere. Located in Colombo, Sri Lanka, this residential project aimed to design a bathroom that provided a luxurious and tranquil retreat. The design featured high-quality materials, contemporary fixtures, and a soothing color palette to enhance the spa-like ambiance. We emphasized comfort and functionality, ensuring that the bathroom offered a relaxing and enjoyable experience. The result was a beautifully designed bathroom that combined modern elegance with a serene and soothing atmosphere.",
+    description: [
+      {
+        id: 1,
+        title: "Planning & Conceptualizing",
+        text: "The planning and conceptualizing phase for the Urban Oasis Bathroom project involved understanding the client’s vision for a modern and relaxing bathroom space. We explored design elements that would contribute to a spa-like atmosphere, such as high-end finishes, contemporary fixtures, and soothing colors. Initial ideas included creating a layout that maximized space and incorporated features like a luxurious bathtub and a walk-in shower. Design sketches and mood boards were developed to visualize the concept and ensure it met the client’s preferences. The planning phase also included developing a project timeline and scope to guide the design and implementation process.",
+      },
+      {
+        id: 2,
+        title: "Design & Development",
+        text: "In the design and development phase, we turned conceptual ideas into detailed design plans for the bathroom. The layout was designed to create a modern and functional space, with a focus on high-end finishes and a spa-like ambiance. We selected contemporary fixtures, luxurious materials, and a soothing color palette to enhance the room’s relaxing atmosphere. Detailed design drawings and 3D renderings were created to provide a clear vision of the final space and guide the implementation process. The design aimed to combine modern elegance with comfort and functionality, ensuring that the bathroom met the client’s needs and preferences.",
+      },
+      {
+        id: 3,
+        title: "Construction Drawing & Documentation",
+        text: "The construction drawing and documentation phase involved preparing detailed plans and specifications for the bathroom’s renovation. Our team created comprehensive drawings, including floor plans, elevations, and sections, to accurately represent the design. We coordinated with contractors to ensure that the construction adhered to the design specifications and quality standards. The documentation included schedules for materials and finishes, as well as instructions for the installation of fixtures and other elements. Regular updates and revisions were made to address any challenges during construction and ensure the project stayed on track.",
+      },
+      {
+        id: 4,
+        title: "Coordination & Supervision",
+        text: "Coordination and supervision were crucial for the successful completion of the Urban Oasis Bathroom project. Our team conducted regular site visits to monitor construction progress and ensure that the work was being carried out according to the design plans. We collaborated closely with contractors and suppliers to resolve any issues and make necessary adjustments. Effective communication with the client was maintained throughout the construction phase to provide updates and ensure their requirements were being met. Quality control was a focus, with inspections conducted to ensure that all materials and finishes were installed to the highest standards. The coordination and supervision phase also involved overseeing the installation of fixtures and finishes to ensure the final space met the client’s vision.",
+      },
+      {
+        id: 5,
+        title: "Furniture, Fabric & Lighting Selections",
+        text: "The final phase of the Urban Oasis Bathroom project involved selecting and sourcing fixtures, materials, and lighting to complete the design. We chose high-quality fixtures and luxurious materials that complemented the bathroom’s modern and spa-like aesthetic. Lighting fixtures were selected to enhance the room’s ambiance and provide a soothing, relaxing atmosphere. We coordinated with suppliers to ensure timely delivery and adherence to design specifications. The final touches, including decorative elements and accessories, were added to create a modern bathroom that provided a tranquil and enjoyable experience for the client.",
+      },
+    ],
+    client: "Sophia Williams",
+    clientImage: user1,
+    finishedDate: "2024-09-20",
+  },
+  {
+    id: 11,
+    name: "Cozy Reading Nook",
+    type: "Residential",
+    requirement:
+      "Create a cozy and inviting reading nook that promotes relaxation and comfort.",
+    location: "Galle, Sri Lanka",
+    image: img3,
+    images: [img3, img5, img6],
+    summary:
+      "The Cozy Reading Nook project aimed to create a comfortable and inviting space dedicated to reading and relaxation. Located in Galle, Sri Lanka, this residential project focused on designing a nook that would provide a tranquil retreat for enjoying books and quiet moments. The design incorporated plush seating, soft lighting, and calming colors to foster a cozy and serene atmosphere. We emphasized creating a space that would be both functional and aesthetically pleasing, allowing the client to escape from the hustle and bustle of daily life. The result was a beautifully designed reading nook that perfectly balanced comfort and style.",
+    description: [
+      {
+        id: 1,
+        title: "Planning & Conceptualizing",
+        text: "The planning and conceptualizing phase for the Cozy Reading Nook project involved understanding the client’s vision for a comfortable and inviting space. We explored various design elements that would promote relaxation and comfort, such as plush seating, soft lighting, and calming colors. Initial ideas included creating a layout that incorporated cozy seating arrangements and functional shelving for books. Design sketches and mood boards were developed to visualize the concept and ensure it aligned with the client’s preferences. The planning phase also included establishing a project timeline and scope to guide the design and implementation process.",
+      },
+      {
+        id: 2,
+        title: "Design & Development",
+        text: "In the design and development phase, we transformed conceptual ideas into detailed design plans for the reading nook. The layout was designed to create a cozy and inviting atmosphere, with a focus on comfort and relaxation. We selected plush seating, soft fabrics, and calming color schemes to enhance the space’s tranquil ambiance. Detailed design drawings and 3D renderings were created to provide a clear vision of the final space and guide the implementation process. The design aimed to create a functional and aesthetically pleasing nook that met the client’s needs for relaxation and comfort.",
+      },
+      {
+        id: 3,
+        title: "Construction Drawing & Documentation",
+        text: "The construction drawing and documentation phase involved preparing detailed plans and specifications for the reading nook’s renovation. Our team created comprehensive drawings, including floor plans, elevations, and sections, to accurately represent the design. We coordinated with contractors to ensure that the construction adhered to the design specifications and quality standards. The documentation also included schedules for materials and finishes, as well as instructions for the installation of furniture and decor items. Regular updates and revisions were made to address any challenges during construction and ensure the project stayed on track.",
+      },
+      {
+        id: 4,
+        title: "Coordination & Supervision",
+        text: "Coordination and supervision were vital to the successful completion of the Cozy Reading Nook project. Our team conducted regular site visits to monitor progress and ensure that the work was being carried out according to the design plans. We worked closely with contractors and suppliers to resolve any issues and make necessary adjustments. Effective communication with the client was maintained throughout the construction phase to provide updates and ensure their requirements were being met. Quality control was a focus, with inspections conducted to ensure that all materials and finishes were installed to the highest standards. The coordination and supervision phase also involved overseeing the installation of furniture and decor items to ensure that the final space met the client’s vision.",
+      },
+      {
+        id: 5,
+        title: "Furniture, Fabric & Lighting Selections",
+        text: "The final phase of the Cozy Reading Nook project involved selecting and sourcing furniture, fabrics, and lighting to complete the design. We chose plush seating, soft fabrics, and calming color schemes that complemented the nook’s cozy and inviting aesthetic. Lighting fixtures were selected to provide a warm and soothing ambiance. We coordinated with suppliers to ensure timely delivery and adherence to design specifications. The final touches, including decorative elements and accessories, were added to create a reading nook that offered both comfort and style, providing the client with a perfect retreat for relaxation.",
+      },
+    ],
+    client: "Emily Johnson",
+    clientImage: user4,
+    finishedDate: "2024-09-25",
   },
 ];

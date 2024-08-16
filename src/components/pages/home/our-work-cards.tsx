@@ -32,7 +32,7 @@ export const WorkCard = ({ project }: { project: TProject }) => {
 
           <Separator />
           <CardDescription className="line-clamp-4 break-all text-xs">
-            {project.description}
+            {project.summary}
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -66,8 +66,8 @@ export const WorkCard = ({ project }: { project: TProject }) => {
       </div>
       <div>
         <CardFooter>
-          <Link href={`/portfolio/${project.id}`}>
-            <Button>
+          <Link href={`/portfolio/${project.id}`} className="block w-full">
+            <Button asChild>
               <span className="uppercase">See details</span>
               <span className="ml-2">
                 <BsArrowRight />

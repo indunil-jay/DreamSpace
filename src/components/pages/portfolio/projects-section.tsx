@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 
-import { projects, slides2 } from "@/constants";
+import { projects } from "@/constants";
 import dayjs from "dayjs";
 import Link from "next/link";
 import { FaLocationDot } from "react-icons/fa6";
@@ -37,12 +37,16 @@ const ProjectCard = ({ project }: { project: (typeof projects)[number] }) => {
         <CardContent>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
             <div className="w-full min-h-[340px] h-[340px] relative rounded-md overflow-clip">
-              <Swipper slides={slides2} navigation={false} pagination={false} />
+              <Swipper
+                slides={project.images}
+                navigation={false}
+                pagination={false}
+              />
             </div>
             <div className="flex flex-col justify-between">
               <div className="flex flex-col ">
                 <CardDescription className="line-clamp-[10] text-sm mb-4">
-                  {project.description}
+                  {project.summary}
                 </CardDescription>
 
                 <div className="space-y-2">
@@ -72,16 +76,16 @@ const ProjectCard = ({ project }: { project: (typeof projects)[number] }) => {
                   </div>
                 </div>
 
-                <Button className="mt-6">
-                  <Link href={`/portfolio/${1}`} className="uppercase">
-                    View more details
-                  </Link>
-                </Button>
+                <Link href={`/portfolio/${project.id}`} className="mt-6">
+                  <Button className=" uppercase">View more details</Button>
+                </Link>
               </div>
 
               <div className="self-end">
                 <p className="text-dark/70 text-sm">
-                  {dayjs().format("ddd, MMM D, YYYY h:mm A")}
+                  {dayjs(project.finishedDate).format(
+                    "ddd, MMM D, YYYY h:mm A"
+                  )}
                 </p>
               </div>
             </div>
