@@ -4,7 +4,7 @@ import { FaSquarePhoneFlip } from "react-icons/fa6";
 
 export const CTASection = () => {
   return (
-    <section className="overflow-clip pt-20">
+    <section className="overflow-clip">
       <div className="relative">
         <div className="absolute z-50 inset-0 bg-dark/80"></div>
         <div className="absolute z-[999] inset-0  text-white flex flex-col justify-center items-center">
