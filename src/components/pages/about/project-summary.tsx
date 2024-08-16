@@ -9,7 +9,7 @@ export const ProjectSummarySection = () => {
       <motion.div
         animate={{ opacity: 0.2, scale: 0.2 }}
         whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: true, amount: 0.7 }}
+        viewport={{ once: true, amount: 0.3 }}
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 text-white max-w-screen-lg w-full mx-auto gap-10"
       >
         {projectsTypes.map((project) => (
@@ -38,7 +38,7 @@ const AnimatedCount = ({ end }: { end: number }) => {
   useEffect(() => {
     let start = 0;
     const endCount = end;
-    const duration = 2;
+    const duration = 8;
     const increment = endCount / (duration * 60);
 
     const updateCount = () => {
