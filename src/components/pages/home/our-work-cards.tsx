@@ -68,10 +68,12 @@ export const WorkCard = ({ project }: { project: TProject }) => {
         <CardFooter>
           <Link href={`/portfolio/${project.id}`} className="block w-full">
             <Button asChild>
-              <span className="uppercase">See details</span>
-              <span className="ml-2">
-                <BsArrowRight />
-              </span>
+              <>
+                <span className="uppercase">See details</span>
+                <span className="ml-2">
+                  <BsArrowRight />
+                </span>
+              </>
             </Button>
           </Link>
         </CardFooter>

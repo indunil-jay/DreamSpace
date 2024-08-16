@@ -18,7 +18,6 @@ export const PortfolioHero = () => {
             the transformative power of exceptional interior design
           </p>
         </div>
-        {/* <Circle /> */}
       </div>
     </section>
   );

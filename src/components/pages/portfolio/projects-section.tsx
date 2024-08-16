@@ -108,7 +108,7 @@ export const ProjectSection = () => {
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
-          {projects.map((project) => (
+          {projects.map((project, i) => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>

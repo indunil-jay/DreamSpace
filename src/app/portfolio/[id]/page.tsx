@@ -1,12 +1,6 @@
 import { Swipper } from "@/components/swipper";
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 
 import { projects, slides } from "@/constants";
@@ -102,14 +96,14 @@ const PortfolioDetailPage = ({ params }: { params: { id: string } }) => {
           <Separator />
 
           <div className="mt-5 ">
-            {project.description.map((p) => (
+            {/* {project.description.map((p) => (
               <div className="mb-5" key={p.id}>
                 <h4 className="italic font-semibold text-[18px] underline mb-3">
                   {p.title}
                 </h4>
                 <p className="text-[14px] break-words text-dark/95">{p.text}</p>
               </div>
-            ))}
+            ))} */}
           </div>
         </CardContent>
       </Card>

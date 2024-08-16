@@ -51,13 +51,25 @@ export const Swipper = ({
               .slice()
               .reverse()
               .map((img, index) => (
-                <SwiperSlide key={index}>
-                  <Image src={img} alt={`slide-image-${index}`} quality={90} />
+                <SwiperSlide key={index} className="w-full h-full relative">
+                  <Image
+                    src={img}
+                    fill
+                    alt={`slide-image-${index}`}
+                    quality={90}
+                    className="w-full h-full object-cover"
+                  />
                 </SwiperSlide>
               ))
           : slides.map((img, index) => (
-              <SwiperSlide key={index}>
-                <Image src={img} alt={`slide-image-${index}`} quality={90} />
+              <SwiperSlide key={index} className="w-full h-full relative">
+                <Image
+                  src={img}
+                  fill
+                  alt={`slide-image-${index}`}
+                  quality={90}
+                  className="w-full h-full object-cover"
+                />
               </SwiperSlide>
             ))}
       </Swiper>

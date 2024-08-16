@@ -58,7 +58,7 @@ export const WhatWeDoSection = () => {
           ))}
         </ul>
       </div>
-      <div className="mt-20 h-[600px] min-h-[600px] 2xl:h-[840px]  2xl:min-h-[840px] overflow-clip">
+      <div className="mt-20 relative h-[600px] min-h-[600px] 2xl:h-[840px]  2xl:min-h-[840px] overflow-clip">
         <Swipper slides={slides} />
       </div>
     </section>
