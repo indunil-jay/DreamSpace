@@ -1,4 +1,4 @@
-import { Circle3 } from "@/components/design/circl3";
+import { Circle } from "@/components/design/circle";
 import { GradientTag } from "@/components/gradient-tag";
 import { Swipper } from "@/components/swipper";
 import { slides1, slides2, slides3 } from "@/constants";
@@ -34,7 +34,7 @@ export const HeroSection = () => {
           {" "}
           <Swipper slides={slides2} navigation={false} pagination={false} />
         </div>
-        <div className=" rounded-3xl border lg:block hidden relative overflow-clip   min-h-[360px] h-[360px] 2xl:min-h-[500px] 2xl:h-[500px]">
+        <div className=" rounded-3xl border lg:block hidden relative overflow-clip    min-h-[360px] h-[360px] 2xl:min-h-[500px] 2xl:h-[500px]">
           <Swipper
             slides={slides3}
             navigation={false}
@@ -44,7 +44,9 @@ export const HeroSection = () => {
         </div>
       </div>
 
-      <Circle3 />
+      <Circle styles="blur-3xl bg-orange-cs/80 h-[12rem] lg:h-[20rem] aspect-square rounded-full top-[2%] left-[6%]  lg:left-[16%] z-[-1]" />
+      <Circle styles="blur-3xl bg-yellow-cs h-[12rem] lg:h-[20rem] aspect-square rounded-full lg:top-[8%] top-[20%] right-[6%]  lg:right-[18%] z-[-1]" />
+      <Circle styles="blur-3xl bg-purple-cs h-[12rem] lg:h-[20rem] aspect-square rounded-full lg:top-[70%] -translate-y-1/2 top-[20%] left-[6%]  lg:left-1/2 -translate-x-1/2 z-[-1]" />
     </section>
   );
 };

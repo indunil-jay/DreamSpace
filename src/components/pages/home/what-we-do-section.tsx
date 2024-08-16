@@ -5,10 +5,13 @@ import { slides } from "@/constants";
 import { SectionHeader } from "@/components/section-header";
 import { Swipper } from "@/components/swipper";
 import { motion } from "framer-motion";
+import { Circle } from "@/components/design/circle";
 
 export const WhatWeDoSection = () => {
   return (
-    <section className="pt-20 overflow-clip  bg-gradient-to-b from-transparent to-white">
+    <section className="pt-20 relative overflow-clip  bg-gradient-to-b from-transparent to-white">
+      <Circle styles="blur-3xl bg-orange-cs h-[12rem] lg:h-[20rem] aspect-square rounded-full lg:top-[38%] top-[60%] left-[2%]  lg:left-[6%] z-[-1]" />
+      <Circle styles="blur-3xl bg-yellow-cs h-[12rem] lg:h-[20rem] aspect-square rounded-full lg:bottom-[8%] top-[20%] right-[6%]  lg:right-[18%] z-[-1]" />
       <SectionHeader
         title="What we do"
         tag="Let's create your dream interior into a reality"

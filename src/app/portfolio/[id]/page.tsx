@@ -1,4 +1,3 @@
-import { Circle3 } from "@/components/design/circl3";
 import { Swipper } from "@/components/swipper";
 import { Button } from "@/components/ui/button";
 import {
@@ -44,7 +43,7 @@ const PortfolioDetailPage = () => {
     <section className="side-gutter ">
       <div className="sticky top-5 left-0 z-50">
         <BackButton />
-        <Circle3 />
+        {/* <Circle3 /> */}
       </div>
       <Card className="max-w-screen-md w-full mx-auto my-10 z-[999] relative">
         <CardHeader>
