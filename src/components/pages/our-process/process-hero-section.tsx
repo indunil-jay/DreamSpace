@@ -15,6 +15,7 @@ export const ProcessHeroSection = () => {
           src={ourprocessHeroImg}
           alt="our-process-page-hero-image"
           fill
+          priority
           className="object-cover overflow-clip"
         />
       </div>

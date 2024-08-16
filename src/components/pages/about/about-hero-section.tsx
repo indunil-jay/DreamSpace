@@ -29,7 +29,8 @@ export const AboutHeroSection = () => {
           src={aboutHeromobileImg}
           alt="about-page-hero-image"
           fill
-          className="object-cover overflow-clip"
+          priority
+          className="object-cover w-full h-full"
         />
       </div>
       <section className=" min-h-[calc(100dvh-5rem)] h-[calc(100dvh-5rem)] flex flex-col  justify-center items-center overflow-hidden">

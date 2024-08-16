@@ -23,9 +23,9 @@ export const TestimonialColumn = ({ column, style, duration }: IColum) => {
         }}
         className={cn("flex items-center justify-center gap-6 pb-6 flex-col ")}
       >
-        {column.map((t) => (
+        {column.map((t, i) => (
           <div
-            key={t.name}
+            key={i}
             className="p-10 rounded-3xl bg-white shadow-[0_7px_14px_#EAEAEA] border border-[#f1f1f1] max-w-xs w-full"
           >
             <div>

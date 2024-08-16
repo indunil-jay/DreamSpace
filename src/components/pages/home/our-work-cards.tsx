@@ -81,8 +81,8 @@ export const WorksCards = () => {
     <div className="pt-10 w-full flex justify-center">
       <div className="overflow-x-auto pl-[3rem] pr-[3rem] works-scrollbar">
         <div className="flex items-center gap-6 pb-[5rem] justify-start">
-          {[...projects, ...projects].map((project) => (
-            <WorkCard project={project} key={project.id} />
+          {[...projects, ...projects].map((project, i) => (
+            <WorkCard project={project} key={i} />
           ))}
         </div>
       </div>
